@@ -1,3 +1,4 @@
+%% Swapper
 clc; clear variables; close all;
 
 % number of trials for the session
@@ -88,3 +89,135 @@ disp([num2str(sum(swaps)), ' swaps']);
 start1 = strfind([0,x'==1],[0 1]);
 end1 = strfind([x'==1,0],[1 0]);
 max(end1 - start1 + 1)
+
+%% Swapper 2
+clc; clear variables; close all;
+
+n = 16; % number of trials 
+k = 3; % maximum number of consecutive trials
+
+t = 3; % trial types, starting at 0. t = 2 for binary trials
+tp = [10.4, 1.2, 5.6]; % relative proportions of each trial type
+
+% -------------------------------------------------------------------------
+% Error checks
+% -------------------------------------------------------------------------
+% convert tp to a pmf
+tp = tp./sum(tp);
+
+if k <= 0
+    error('Maximum number of consecutive trials must be greater than or equal to 1');
+end
+
+if n <= 0
+    error('Number of trials must be greater than or equal to 1');
+end
+
+if t <=0
+    error('Number of unique trial types must be greater than or equal to 1');
+end
+
+if t > n
+    error("Number of unique trial types shouldn't exceed the number of total trials");
+end
+
+if length(tp) ~= t
+    error("Each trial should have an associated probability");
+end
+
+% -------------------------------------------------------------------------
+% Generation
+% -------------------------------------------------------------------------
+disp(['Generating ', num2str(n),' trials with ', num2str(t),' trial types, and a limit of ', num2str(k),' consecutive trials']);
+disp(' ');
+
+n_trials = floor(tp.*n); % whole number of trials
+f_trials = (tp.*n) - floor(tp.*n); % fractional part of trials
+[~, idx] = sort(f_trials, 'descend');
+
+diff_trials = n - sum(n_trials); % number of additional trials needed
+
+% add trials to trials types with greatest fractional component
+i = 1;
+while diff_trials > 0
+    n_trials(idx(i)) = n_trials(idx(i)) + 1;
+    
+    i = i + 1;
+    diff_trials = diff_trials - 1;
+end
+
+if sum(n_trials) ~= n
+    error("Something went wrong with the fractional allocation...");
+end
+
+disp('Trial type probabilities and number of trials');
+for i = 1:length(tp)
+    disp(['Trial ', num2str(i-1),': ', num2str(tp(i)), ', ',num2str(tp(i)*n),' trials, ', num2str(n_trials(i)),' trials']);
+end
+
+if sum(n_trials == 0) > 0
+    disp('Warning: Empty trials');
+end
+
+if k >= n
+    % Quick shuffle
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
