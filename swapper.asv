@@ -5,8 +5,8 @@ rng(42);
 
 n_sequences = 100;
 
-n = 175; % number of trials 
-k = 500; % maximum number of consecutive trials
+n = 1; % number of trials 
+k = 5; % maximum number of consecutive trials
 m = 2; % trial types, starting at 0. t = 2 for binary trials
 mp = [1, 1]; % relative proportions of each trial type
 
@@ -45,7 +45,7 @@ end
 if k >= n
     k = 0;
 end
-cd('/home/jdk20/git/wheatley/sequences');
+cd('/home/jdk20/git/wheatley');
 writematrix(m_trials', ['seq_n',num2str(n),'_k',num2str(k),'_m',num2str(m),'.csv'], 'Delimiter',',')
 
 
