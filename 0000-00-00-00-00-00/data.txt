@@ -1,8 +1,9 @@
 Schedule, Mouse Two-Tone Audio Discrimination v1 
 Environment, Beckman Institute Room B146
-Time, 7/27/2021 7:10:10 PM
+Time, 7/28/2021 3:15:25 PM
 Animal, Remy
-Trials, 175
+Trials, 10
 Consecutive trials, 3
+Trial sequence, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0
 
 ----------
