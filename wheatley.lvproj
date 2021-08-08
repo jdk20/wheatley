@@ -29,9 +29,12 @@
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
 			</Item>
+			<Item Name="lick-read-debug.vi" Type="VI" URL="../lick-read-debug.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="states-enum.ctl" Type="VI" URL="../states-enum.ctl"/>
 			<Item Name="states.ctl" Type="VI" URL="../states.ctl"/>
 			<Item Name="status.ctl" Type="VI" URL="../status.ctl"/>
+			<Item Name="write-log.vi" Type="VI" URL="../write-log.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

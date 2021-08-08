@@ -1,16 +1,39 @@
-Schedule, Mouse Two-Tone Audio Discrimination v1 
-Environment, Beckman Institute Room B146
-Time, 7/29/2021 7:06:32 PM
-Animal, Remy
+Schedule, Two Choice Audio Discimination
+Environment, BI Room 146
+Time, 8/7/2021 11:37:47 PM
+Animal, Mouse
 Trials, 10
 Consecutive trials, 3
-Trial sequence, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1
+Trial sequence, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1
 
 ----------
 Time, ID, Type, Name, Value
-0.002161, 20, Internal, Start_ITI, 1.958135
-1.960541, 21, Internal, End_ITI, 
-4.962271, 20, Internal, Start_ITI, 1.805483
-6.768645, 21, Internal, End_ITI, 
-9.770331, 20, Internal, Start_ITI, 1.723148
-11.494908, 21, Internal, End_ITI, 
+0.000030, 20, Internal, Start_ITI, 6.526199
+6.717654, 21, Internal, End_ITI, 
+6.718349, 20, Internal, Start_ITI, 6.429981
+10.834217, 50, Internal, Lick, ITI
+11.837407, 50, Internal, Lick, ITI
+13.345077, 21, Internal, End_ITI, 
+13.345977, 20, Internal, Start_ITI, 5.287087
+18.161669, 50, Internal, Lick, ITI
+18.764687, 21, Internal, End_ITI, 
+18.765448, 20, Internal, Start_ITI, 5.463847
+24.382952, 21, Internal, End_ITI, 
+24.383377, 20, Internal, Start_ITI, 5.136436
+28.196656, 50, Internal, Lick, ITI
+29.700772, 21, Internal, End_ITI, 
+29.701079, 20, Internal, Start_ITI, 7.337135
+37.139774, 21, Internal, End_ITI, 
+37.139987, 20, Internal, Start_ITI, 7.665294
+39.845917, 50, Internal, Lick, ITI
+42.452552, 50, Internal, Lick, ITI
+44.963983, 21, Internal, End_ITI, 
+44.964199, 20, Internal, Start_ITI, 7.147354
+51.595679, 50, Internal, Lick, ITI
+52.299552, 21, Internal, End_ITI, 
+52.300299, 20, Internal, Start_ITI, 7.114535
+59.530438, 21, Internal, End_ITI, 
+59.530655, 20, Internal, Start_ITI, 6.099491
+65.745755, 21, Internal, End_ITI, 
+65.746022, 20, Internal, Start_ITI, 5.725534
+71.666441, 21, Internal, End_ITI, 
