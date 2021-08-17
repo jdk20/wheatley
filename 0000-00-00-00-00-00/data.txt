@@ -1,64 +1,80 @@
-Schedule, Two Choice Audio Discimination
+Schedule, Two Choice Audio Discrimination
 Environment, BI Room 146
-Time, 8/10/2021 4:58:15 PM
+Time, 8/16/2021 5:40:11 PM
 Animal, Mouse
 Trials, 10
 Consecutive trials, 3
-Trial sequence, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0
+Trial sequence, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0
 
 ----------
 Time, ID, Type, Name, Value
-0.002694, 20, Internal, Start_ITI, 5.900289
-6.027046, 21, Internal, End_ITI, 
-6.029851, 91, External, Audio-Tone-CS-, 0 Hz
-9.144430, 100, External, Reward, 0ml
-9.147134, 20, Internal, Start_ITI, 5.944679
-14.166356, 50, Internal, Lick, ITI
-15.269846, 21, Internal, End_ITI, 
-15.272280, 90, External, Audio-Tone-CS+, 0 Hz
-18.387793, 20, Internal, Start_ITI, 5.508791
-33.446431, 50, Internal, Lick, ITI
-34.049800, 21, Internal, End_ITI, 
-34.052646, 91, External, Audio-Tone-CS-, 0 Hz
-35.462945, 50, Internal, Lick, ITI
-37.169655, 100, External, Reward, 0ml
-37.172124, 20, Internal, Start_ITI, 7.860561
-41.586635, 50, Internal, Lick, ITI
-45.201674, 21, Internal, End_ITI, 
-45.204141, 91, External, Audio-Tone-CS-, 0 Hz
-47.816633, 50, Internal, Lick, ITI
-48.318526, 100, External, Reward, 0ml
-48.320979, 20, Internal, Start_ITI, 7.810759
-56.260520, 21, Internal, End_ITI, 
-56.263237, 90, External, Audio-Tone-CS+, 0 Hz
-59.379141, 20, Internal, Start_ITI, 6.561888
-61.584449, 50, Internal, Lick, ITI
-62.788183, 50, Internal, Lick, ITI
-66.003743, 50, Internal, Lick, ITI
-67.206795, 50, Internal, Lick, ITI
-70.719276, 50, Internal, Lick, ITI
-72.526003, 50, Internal, Lick, ITI
-76.042431, 21, Internal, End_ITI, 
-76.045066, 90, External, Audio-Tone-CS+, 0 Hz
-79.161108, 20, Internal, Start_ITI, 7.026970
-96.352668, 21, Internal, End_ITI, 
-96.355436, 90, External, Audio-Tone-CS+, 0 Hz
-99.470383, 20, Internal, Start_ITI, 7.823647
-105.898584, 50, Internal, Lick, ITI
-108.311571, 50, Internal, Lick, ITI
-117.453909, 21, Internal, End_ITI, 
-117.456936, 91, External, Audio-Tone-CS-, 0 Hz
-117.458939, 50, Internal, Lick, ITI
-120.573440, 100, External, Reward, 0ml
-120.575869, 20, Internal, Start_ITI, 7.905907
-122.086398, 50, Internal, Lick, ITI
-127.407242, 50, Internal, Lick, ITI
-128.614846, 21, Internal, End_ITI, 
-128.617238, 90, External, Audio-Tone-CS+, 0 Hz
-131.731317, 20, Internal, Start_ITI, 5.980943
-132.334540, 50, Internal, Lick, ITI
-133.837553, 50, Internal, Lick, ITI
-134.340233, 50, Internal, Lick, ITI
-141.272438, 50, Internal, Lick, ITI
-147.403980, 50, Internal, Lick, ITI
-147.905632, 21, Internal, End_ITI, 
+0.001946, 20, Internal, Start_ITI, 4.976457
+4.219888, 50, Internal, Lick, ITI
+5.122939, 21, Internal, End_ITI, 
+5.125776, 91, External, Audio-Tone-CS-, 0 Hz
+5.127879, 91, Internal, Trial-Delay-Window, 1
+5.932888, 50, Internal, Lick, ITI
+6.235603, 92, Internal, Trial-Reception-Window, 4
+9.248704, 100, External, Reward, 0ml
+9.251708, 20, Internal, Start_ITI, 4.497439
+13.868746, 21, Internal, End_ITI, 
+13.871912, 91, External, Audio-Tone-CS-, 0 Hz
+13.874780, 91, Internal, Trial-Delay-Window, 1
+14.979219, 92, Internal, Trial-Reception-Window, 4
+17.992667, 100, External, Reward, 0ml
+17.995665, 20, Internal, Start_ITI, 4.128274
+22.309706, 21, Internal, End_ITI, 
+22.312140, 90, External, Audio-Tone-CS+, 0 Hz
+22.313635, 91, Internal, Trial-Delay-Window, 1
+23.318307, 50, Internal, Lick, ITI
+23.419607, 92, Internal, Trial-Reception-Window, 4
+26.430455, 20, Internal, Start_ITI, 3.427213
+28.842378, 50, Internal, Lick, ITI
+29.444704, 50, Internal, Lick, ITI
+30.046566, 50, Internal, Lick, ITI
+31.551047, 21, Internal, End_ITI, 
+31.554078, 91, External, Audio-Tone-CS-, 0 Hz
+31.556227, 91, Internal, Trial-Delay-Window, 1
+32.661237, 92, Internal, Trial-Reception-Window, 4
+35.673938, 100, External, Reward, 0ml
+35.676797, 20, Internal, Start_ITI, 3.030859
+38.890458, 21, Internal, End_ITI, 
+38.893614, 90, External, Audio-Tone-CS+, 0 Hz
+38.895478, 91, Internal, Trial-Delay-Window, 1
+40.000722, 92, Internal, Trial-Reception-Window, 4
+43.012220, 20, Internal, Start_ITI, 4.503862
+44.321693, 50, Internal, Lick, ITI
+49.146601, 21, Internal, End_ITI, 
+49.149414, 90, External, Audio-Tone-CS+, 0 Hz
+49.151664, 91, Internal, Trial-Delay-Window, 1
+50.255136, 92, Internal, Trial-Reception-Window, 4
+51.961910, 50, Internal, Lick, ITI
+52.364144, 50, Internal, Lick, ITI
+53.267629, 20, Internal, Start_ITI, 3.656075
+56.884558, 50, Internal, Lick, ITI
+58.589432, 21, Internal, End_ITI, 
+58.595069, 91, External, Audio-Tone-CS-, 0 Hz
+58.596853, 91, Internal, Trial-Delay-Window, 1
+59.699979, 92, Internal, Trial-Reception-Window, 4
+62.713056, 100, External, Reward, 0ml
+62.715947, 20, Internal, Start_ITI, 3.170349
+66.031131, 21, Internal, End_ITI, 
+66.033693, 90, External, Audio-Tone-CS+, 0 Hz
+66.035322, 91, Internal, Trial-Delay-Window, 1
+67.141596, 92, Internal, Trial-Reception-Window, 4
+70.154214, 20, Internal, Start_ITI, 4.087292
+75.880118, 21, Internal, End_ITI, 
+75.882990, 90, External, Audio-Tone-CS+, 0 Hz
+75.885223, 91, Internal, Trial-Delay-Window, 1
+76.987884, 92, Internal, Trial-Reception-Window, 4
+80.001146, 20, Internal, Start_ITI, 3.703868
+81.806921, 50, Internal, Lick, ITI
+82.008753, 50, Internal, Lick, ITI
+85.323825, 21, Internal, End_ITI, 
+85.326470, 91, External, Audio-Tone-CS-, 0 Hz
+85.328160, 91, Internal, Trial-Delay-Window, 1
+86.437365, 92, Internal, Trial-Reception-Window, 4
+89.450904, 100, External, Reward, 0ml
+89.453464, 20, Internal, Start_ITI, 3.234974
+91.461235, 50, Internal, Lick, ITI
+92.865604, 21, Internal, End_ITI, 
