@@ -1,171 +1,1916 @@
 Schedule, Two Choice Audio Discrimination
 Environment, BI Room 146
-Time, 8/17/2021 3:11:07 PM
+Path, X:\wheatley
+Time, 8/17/2021 6:28:10 PM
 Animal, Mouse
-Trials, 10
-Consecutive trials, 3
+Trials, 175
+Consecutive_Trials, 3
+Max_Time_s, 3600
+Delay_Window_ms, 10
+Reception_Window_ms, 30
+ITI_Lower_s, 0
+ITI_Upper_s, 0
+Punish_Time_s, 0
 CS+_Delay_Lick, Miss
 CS+_Reception_Lick, Hit
 CS+_No_Lick, Miss
 CS-_Delay_Lick, False_Alarm
 CS-_Reception_Lick, False_Alarm
 CS-_No_Lick, Correct_Reject
-Trial sequence, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1
+Trial_Sequence, 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1
 
 ----------
 Time, ID, Type, Name, Value
-0.002484, 20, Internal, Start_ITI, 1.235953
-1.251677, 21, Internal, End_ITI, 
-1.254446, 90, External, Play_Audio_Tone_CS+, 0 Hz
-1.256277, 91, Internal, Start_Trial_Delay_Window, 1
-1.851340, 51, Internal, Lick, Trial_Delay
-2.265278, 93, Internal, End_Trial_Delay_Window, 
-2.275154, 92, Internal, Start_Trial_Reception_Window, 3
-2.901792, 52, Internal, Lick, Trial_Reception_Window
-3.585533, 52, Internal, Lick, Trial_Reception_Window
-3.711371, 52, Internal, Lick, Trial_Reception_Window
-4.908760, 52, Internal, Lick, Trial_Reception_Window
-5.260099, 94, Internal, End_Trial_Reception_Window, 
-5.269728, -1, Internal, Skip_Receiving, 
-5.271947, 61 Internal, Trial_Miss,
-5.273620, 20, Internal, Start_ITI, 1.760270
-5.536346, 50, Internal, Lick, ITI
-5.776729, 50, Internal, Lick, ITI
-5.797938, 50, Internal, Lick, ITI
-6.274728, 50, Internal, Lick, ITI
-7.467933, 50, Internal, Lick, ITI
-8.376235, 50, Internal, Lick, ITI
-8.551528, 21, Internal, End_ITI, 
-8.553885, 91, External, Play_Audio_Tone_CS-, 0 Hz
-8.555140, 91, Internal, Start_Trial_Delay_Window, 1
-9.557599, 93, Internal, End_Trial_Delay_Window, 
-9.569303, 92, Internal, Start_Trial_Reception_Window, 3
-11.484827, 52, Internal, Lick, Trial_Reception_Window
-12.027347, 52, Internal, Lick, Trial_Reception_Window
-12.563184, 94, Internal, End_Trial_Reception_Window, 
-12.573021, 62, Internal, Trial_FA,
-12.574782, 20, Internal, Start_ITI, 1.890641
-13.728099, 50, Internal, Lick, ITI
-15.980280, 21, Internal, End_ITI, 
-15.982393, 91, External, Play_Audio_Tone_CS-, 0 Hz
-15.983630, 91, Internal, Start_Trial_Delay_Window, 1
-16.987855, 93, Internal, End_Trial_Delay_Window, 
-16.997832, 92, Internal, Start_Trial_Reception_Window, 3
-17.629187, 52, Internal, Lick, Trial_Reception_Window
-19.062062, 52, Internal, Lick, Trial_Reception_Window
-19.395629, 52, Internal, Lick, Trial_Reception_Window
-19.987782, 94, Internal, End_Trial_Reception_Window, 
-19.999210, 62, Internal, Trial_FA,
-20.001067, 20, Internal, Start_ITI, 1.056226
-20.374262, 50, Internal, Lick, ITI
-20.455564, 50, Internal, Lick, ITI
-22.544108, 50, Internal, Lick, ITI
-22.576343, 21, Internal, End_ITI, 
-22.578639, 90, External, Play_Audio_Tone_CS+, 0 Hz
-22.580217, 91, Internal, Start_Trial_Delay_Window, 1
-23.462233, 51, Internal, Lick, Trial_Delay
-23.586133, 93, Internal, End_Trial_Delay_Window, 
-23.595773, 92, Internal, Start_Trial_Reception_Window, 3
-24.661199, 52, Internal, Lick, Trial_Reception_Window
-25.822259, 52, Internal, Lick, Trial_Reception_Window
-26.370339, 52, Internal, Lick, Trial_Reception_Window
-26.586098, 94, Internal, End_Trial_Reception_Window, 
-26.595885, -1, Internal, Skip_Receiving, 
-26.597402, 61 Internal, Trial_Miss,
-26.598716, 20, Internal, Start_ITI, 1.104740
-26.877693, 50, Internal, Lick, ITI
-29.223566, 21, Internal, End_ITI, 
-29.226160, 91, External, Play_Audio_Tone_CS-, 0 Hz
-29.227692, 91, Internal, Start_Trial_Delay_Window, 1
-30.228390, 93, Internal, End_Trial_Delay_Window, 
-30.237767, 92, Internal, Start_Trial_Reception_Window, 3
-31.125830, 52, Internal, Lick, Trial_Reception_Window
-31.250459, 52, Internal, Lick, Trial_Reception_Window
-31.425275, 52, Internal, Lick, Trial_Reception_Window
-32.973953, 52, Internal, Lick, Trial_Reception_Window
-33.230881, 94, Internal, End_Trial_Reception_Window, 
-33.233317, 52, Internal, Lick, Trial_Reception_Window
-33.241875, 62, Internal, Trial_FA,
-33.244061, 20, Internal, Start_ITI, 1.925848
-33.721952, 50, Internal, Lick, ITI
-34.218282, 50, Internal, Lick, ITI
-34.238949, 50, Internal, Lick, ITI
-34.320611, 50, Internal, Lick, ITI
-34.352730, 50, Internal, Lick, ITI
-36.484541, 50, Internal, Lick, ITI
-36.681673, 21, Internal, End_ITI, 
-36.684161, 90, External, Play_Audio_Tone_CS+, 0 Hz
-36.685639, 91, Internal, Start_Trial_Delay_Window, 1
-37.685823, 93, Internal, End_Trial_Delay_Window, 
-37.695772, 92, Internal, Start_Trial_Reception_Window, 3
-37.943664, 52, Internal, Lick, Trial_Reception_Window
-40.694391, 94, Internal, End_Trial_Reception_Window, 
-40.704162, 60, Internal, Trial_Hit,
-40.706459, 100, External, Dispense-Reward, 0ml
-40.708039, 20, Internal, Start_ITI, 1.642062
-42.365301, 21, Internal, End_ITI, 
-42.368255, 91, External, Play_Audio_Tone_CS-, 0 Hz
-42.369742, 91, Internal, Start_Trial_Delay_Window, 1
-42.419864, 51, Internal, Lick, Trial_Delay
-42.699066, 51, Internal, Lick, Trial_Delay
-43.371041, 93, Internal, End_Trial_Delay_Window, 
-43.380770, 92, Internal, Start_Trial_Reception_Window, 3
-43.382907, 52, Internal, Lick, Trial_Reception_Window
-43.966803, 52, Internal, Lick, Trial_Reception_Window
-44.144202, 52, Internal, Lick, Trial_Reception_Window
-46.373572, 94, Internal, End_Trial_Reception_Window, 
-46.385259, -1, Internal, Skip_Receiving, 
-46.387345, 62, Internal, Trial_FA,
-46.389149, 20, Internal, Start_ITI, 1.950518
-46.839315, 50, Internal, Lick, ITI
-47.395239, 50, Internal, Lick, ITI
-47.467275, 50, Internal, Lick, ITI
-48.933186, 50, Internal, Lick, ITI
-49.855080, 21, Internal, End_ITI, 
-49.857169, 90, External, Play_Audio_Tone_CS+, 0 Hz
-49.860767, 91, Internal, Start_Trial_Delay_Window, 1
-50.865587, 93, Internal, End_Trial_Delay_Window, 
-50.877162, 92, Internal, Start_Trial_Reception_Window, 3
-51.135248, 52, Internal, Lick, Trial_Reception_Window
-51.729660, 52, Internal, Lick, Trial_Reception_Window
-52.175834, 52, Internal, Lick, Trial_Reception_Window
-52.424278, 52, Internal, Lick, Trial_Reception_Window
-52.764788, 52, Internal, Lick, Trial_Reception_Window
-53.203234, 52, Internal, Lick, Trial_Reception_Window
-53.329277, 52, Internal, Lick, Trial_Reception_Window
-53.867276, 94, Internal, End_Trial_Reception_Window, 
-53.878320, 60, Internal, Trial_Hit,
-53.880092, 100, External, Dispense-Reward, 0ml
-53.881376, 20, Internal, Start_ITI, 1.039561
-54.346869, 50, Internal, Lick, ITI
-54.935730, 21, Internal, End_ITI, 
-54.938033, 91, External, Play_Audio_Tone_CS-, 0 Hz
-54.939492, 91, Internal, Start_Trial_Delay_Window, 1
-55.941220, 93, Internal, End_Trial_Delay_Window, 
-55.951138, 92, Internal, Start_Trial_Reception_Window, 3
-56.705107, 52, Internal, Lick, Trial_Reception_Window
-57.572239, 52, Internal, Lick, Trial_Reception_Window
-58.945004, 94, Internal, End_Trial_Reception_Window, 
-58.955688, 62, Internal, Trial_FA,
-58.956925, 20, Internal, Start_ITI, 1.960481
-59.711613, 50, Internal, Lick, ITI
-60.486976, 50, Internal, Lick, ITI
-62.434980, 21, Internal, End_ITI, 
-62.437364, 90, External, Play_Audio_Tone_CS+, 0 Hz
-62.438849, 91, Internal, Start_Trial_Delay_Window, 1
-62.811842, 51, Internal, Lick, Trial_Delay
-63.282719, 51, Internal, Lick, Trial_Delay
-63.324776, 51, Internal, Lick, Trial_Delay
-63.441941, 93, Internal, End_Trial_Delay_Window, 
-63.451525, 92, Internal, Start_Trial_Reception_Window, 3
-64.887292, 52, Internal, Lick, Trial_Reception_Window
-65.881028, 52, Internal, Lick, Trial_Reception_Window
-66.086485, 52, Internal, Lick, Trial_Reception_Window
-66.097977, 52, Internal, Lick, Trial_Reception_Window
-66.406756, 52, Internal, Lick, Trial_Reception_Window
-66.437626, 94, Internal, End_Trial_Reception_Window, 
-66.448750, -1, Internal, Skip_Receiving, 
-66.450181, 61 Internal, Trial_Miss,
-66.451584, 20, Internal, Start_ITI, 1.631901
-67.564719, 50, Internal, Lick, ITI
-69.593737, 21, Internal, End_ITI, 
+0.005013, 20, Internal, Start_ITI, 0.111210
+0.128405, 21, Internal, End_ITI, 
+0.130948, 91, External, Play_Audio_Tone_CS-, 0 Hz
+0.133127, 95, Internal, Start_Trial, 
+0.135162, 91, Internal, Start_Trial_Delay_Window, 0
+0.143052, 93, Internal, End_Trial_Delay_Window, 
+0.152575, 92, Internal, Start_Trial_Reception_Window, 0
+0.174661, 94, Internal, End_Trial_Reception_Window, 
+0.177102, 96, Internal, End_Trial, 
+0.186184, 100, External, Dispense_Reward, 0ml
+0.188028, 63, Internal, Trial_CR,
+0.190341, 20, Internal, Start_ITI, 0.199576
+0.406104, 21, Internal, End_ITI, 
+0.408648, 91, External, Play_Audio_Tone_CS-, 0 Hz
+0.410538, 95, Internal, Start_Trial, 
+0.412156, 91, Internal, Start_Trial_Delay_Window, 0
+0.420555, 93, Internal, End_Trial_Delay_Window, 
+0.432091, 92, Internal, Start_Trial_Reception_Window, 0
+0.452994, 94, Internal, End_Trial_Reception_Window, 
+0.454911, 96, Internal, End_Trial, 
+0.462647, 100, External, Dispense_Reward, 0ml
+0.464796, 63, Internal, Trial_CR,
+0.466513, 20, Internal, Start_ITI, 0.173890
+0.650993, 21, Internal, End_ITI, 
+0.653798, 90, External, Play_Audio_Tone_CS+, 0 Hz
+0.655649, 95, Internal, Start_Trial, 
+0.657322, 91, Internal, Start_Trial_Delay_Window, 0
+0.665931, 93, Internal, End_Trial_Delay_Window, 
+0.675587, 92, Internal, Start_Trial_Reception_Window, 0
+0.696858, 94, Internal, End_Trial_Reception_Window, 
+0.699701, 96, Internal, End_Trial, 
+0.706545, 61, Internal, Trial_Miss,
+0.708049, 22, Internal, Start_Punish_ITI, 0.154748
+0.977941, 23, Internal, End_Punish_ITI, 
+0.980359, 90, External, Play_Audio_Tone_CS+, 0 Hz
+0.981876, 95, Internal, Start_Trial, 
+0.983396, 91, Internal, Start_Trial_Delay_Window, 0
+0.990812, 93, Internal, End_Trial_Delay_Window, 
+1.002293, 92, Internal, Start_Trial_Reception_Window, 0
+1.022271, 94, Internal, End_Trial_Reception_Window, 
+1.024351, 96, Internal, End_Trial, 
+1.031885, 61, Internal, Trial_Miss,
+1.033351, 22, Internal, Start_Punish_ITI, 0.180167
+1.324901, 23, Internal, End_Punish_ITI, 
+1.327004, 91, External, Play_Audio_Tone_CS-, 0 Hz
+1.328863, 95, Internal, Start_Trial, 
+1.330227, 91, Internal, Start_Trial_Delay_Window, 0
+1.339234, 93, Internal, End_Trial_Delay_Window, 
+1.350286, 92, Internal, Start_Trial_Reception_Window, 0
+1.369737, 94, Internal, End_Trial_Reception_Window, 
+1.371447, 96, Internal, End_Trial, 
+1.381167, 100, External, Dispense_Reward, 0ml
+1.383072, 63, Internal, Trial_CR,
+1.384879, 20, Internal, Start_ITI, 0.124504
+1.526670, 21, Internal, End_ITI, 
+1.528827, 90, External, Play_Audio_Tone_CS+, 0 Hz
+1.530260, 95, Internal, Start_Trial, 
+1.531675, 91, Internal, Start_Trial_Delay_Window, 0
+1.539615, 93, Internal, End_Trial_Delay_Window, 
+1.551231, 92, Internal, Start_Trial_Reception_Window, 0
+1.570746, 94, Internal, End_Trial_Reception_Window, 
+1.572879, 96, Internal, End_Trial, 
+1.580680, 61, Internal, Trial_Miss,
+1.582515, 22, Internal, Start_Punish_ITI, 0.182079
+1.882395, 23, Internal, End_Punish_ITI, 
+1.885188, 91, External, Play_Audio_Tone_CS-, 0 Hz
+1.886968, 95, Internal, Start_Trial, 
+1.888486, 91, Internal, Start_Trial_Delay_Window, 0
+1.897326, 93, Internal, End_Trial_Delay_Window, 
+1.906555, 92, Internal, Start_Trial_Reception_Window, 0
+1.927435, 94, Internal, End_Trial_Reception_Window, 
+1.929065, 96, Internal, End_Trial, 
+1.939057, 100, External, Dispense_Reward, 0ml
+1.941775, 63, Internal, Trial_CR,
+1.943541, 20, Internal, Start_ITI, 0.188721
+2.152820, 21, Internal, End_ITI, 
+2.155457, 90, External, Play_Audio_Tone_CS+, 0 Hz
+2.157263, 95, Internal, Start_Trial, 
+2.159421, 91, Internal, Start_Trial_Delay_Window, 0
+2.167408, 93, Internal, End_Trial_Delay_Window, 
+2.179007, 92, Internal, Start_Trial_Reception_Window, 0
+2.199914, 94, Internal, End_Trial_Reception_Window, 
+2.201593, 96, Internal, End_Trial, 
+2.211267, 61, Internal, Trial_Miss,
+2.212685, 22, Internal, Start_Punish_ITI, 0.185959
+2.521068, 23, Internal, End_Punish_ITI, 
+2.523328, 90, External, Play_Audio_Tone_CS+, 0 Hz
+2.525154, 95, Internal, Start_Trial, 
+2.526463, 91, Internal, Start_Trial_Delay_Window, 0
+2.535828, 93, Internal, End_Trial_Delay_Window, 
+2.545375, 92, Internal, Start_Trial_Reception_Window, 0
+2.566720, 94, Internal, End_Trial_Reception_Window, 
+2.568302, 96, Internal, End_Trial, 
+2.576476, 61, Internal, Trial_Miss,
+2.577667, 22, Internal, Start_Punish_ITI, 0.123850
+2.815656, 23, Internal, End_Punish_ITI, 
+2.817973, 90, External, Play_Audio_Tone_CS+, 0 Hz
+2.819618, 95, Internal, Start_Trial, 
+2.820952, 91, Internal, Start_Trial_Delay_Window, 0
+2.829294, 93, Internal, End_Trial_Delay_Window, 
+2.838650, 92, Internal, Start_Trial_Reception_Window, 0
+2.860031, 94, Internal, End_Trial_Reception_Window, 
+2.862111, 96, Internal, End_Trial, 
+2.869484, 61, Internal, Trial_Miss,
+2.870987, 22, Internal, Start_Punish_ITI, 0.186669
+3.171416, 23, Internal, End_Punish_ITI, 
+3.173756, 91, External, Play_Audio_Tone_CS-, 0 Hz
+3.175448, 95, Internal, Start_Trial, 
+3.177087, 91, Internal, Start_Trial_Delay_Window, 0
+3.184727, 93, Internal, End_Trial_Delay_Window, 
+3.194676, 92, Internal, Start_Trial_Reception_Window, 0
+3.215323, 94, Internal, End_Trial_Reception_Window, 
+3.217065, 96, Internal, End_Trial, 
+3.225466, 100, External, Dispense_Reward, 0ml
+3.227122, 63, Internal, Trial_CR,
+3.228707, 20, Internal, Start_ITI, 0.142981
+3.385230, 21, Internal, End_ITI, 
+3.387574, 90, External, Play_Audio_Tone_CS+, 0 Hz
+3.388974, 95, Internal, Start_Trial, 
+3.390348, 91, Internal, Start_Trial_Delay_Window, 0
+3.397791, 93, Internal, End_Trial_Delay_Window, 
+3.407448, 92, Internal, Start_Trial_Reception_Window, 0
+3.430200, 94, Internal, End_Trial_Reception_Window, 
+3.431823, 96, Internal, End_Trial, 
+3.441014, 61, Internal, Trial_Miss,
+3.442535, 22, Internal, Start_Punish_ITI, 0.165285
+3.724093, 23, Internal, End_Punish_ITI, 
+3.726251, 91, External, Play_Audio_Tone_CS-, 0 Hz
+3.727616, 95, Internal, Start_Trial, 
+3.729277, 91, Internal, Start_Trial_Delay_Window, 0
+3.737454, 93, Internal, End_Trial_Delay_Window, 
+3.748496, 92, Internal, Start_Trial_Reception_Window, 0
+3.771033, 94, Internal, End_Trial_Reception_Window, 
+3.773213, 96, Internal, End_Trial, 
+3.780740, 100, External, Dispense_Reward, 0ml
+3.782647, 63, Internal, Trial_CR,
+3.784160, 20, Internal, Start_ITI, 0.186108
+3.988477, 21, Internal, End_ITI, 
+3.990962, 91, External, Play_Audio_Tone_CS-, 0 Hz
+3.992537, 95, Internal, Start_Trial, 
+3.993803, 91, Internal, Start_Trial_Delay_Window, 0
+4.001408, 93, Internal, End_Trial_Delay_Window, 
+4.013227, 92, Internal, Start_Trial_Reception_Window, 0
+4.032481, 94, Internal, End_Trial_Reception_Window, 
+4.034343, 96, Internal, End_Trial, 
+4.042358, 100, External, Dispense_Reward, 0ml
+4.043489, 63, Internal, Trial_CR,
+4.044565, 20, Internal, Start_ITI, 0.128682
+4.188918, 21, Internal, End_ITI, 
+4.191011, 90, External, Play_Audio_Tone_CS+, 0 Hz
+4.192549, 95, Internal, Start_Trial, 
+4.194036, 91, Internal, Start_Trial_Delay_Window, 0
+4.203440, 93, Internal, End_Trial_Delay_Window, 
+4.215017, 92, Internal, Start_Trial_Reception_Window, 0
+4.235649, 94, Internal, End_Trial_Reception_Window, 
+4.237824, 96, Internal, End_Trial, 
+4.245503, 61, Internal, Trial_Miss,
+4.247177, 22, Internal, Start_Punish_ITI, 0.126133
+4.358655, 50, Internal, Lick, ITI
+4.491352, 23, Internal, End_Punish_ITI, 
+4.493649, 90, External, Play_Audio_Tone_CS+, 0 Hz
+4.495277, 95, Internal, Start_Trial, 
+4.496789, 91, Internal, Start_Trial_Delay_Window, 0
+4.507340, 93, Internal, End_Trial_Delay_Window, 
+4.516938, 92, Internal, Start_Trial_Reception_Window, 0
+4.536341, 94, Internal, End_Trial_Reception_Window, 
+4.537784, 96, Internal, End_Trial, 
+4.547410, 61, Internal, Trial_Miss,
+4.548605, 22, Internal, Start_Punish_ITI, 0.137986
+4.797982, 23, Internal, End_Punish_ITI, 
+4.800090, 91, External, Play_Audio_Tone_CS-, 0 Hz
+4.801739, 95, Internal, Start_Trial, 
+4.803205, 91, Internal, Start_Trial_Delay_Window, 0
+4.811821, 93, Internal, End_Trial_Delay_Window, 
+4.821425, 92, Internal, Start_Trial_Reception_Window, 0
+4.842886, 94, Internal, End_Trial_Reception_Window, 
+4.844547, 96, Internal, End_Trial, 
+4.852857, 100, External, Dispense_Reward, 0ml
+4.854240, 63, Internal, Trial_CR,
+4.855644, 20, Internal, Start_ITI, 0.118370
+4.949736, 50, Internal, Lick, ITI
+4.990599, 21, Internal, End_ITI, 
+4.992496, 90, External, Play_Audio_Tone_CS+, 0 Hz
+4.993933, 95, Internal, Start_Trial, 
+4.995472, 91, Internal, Start_Trial_Delay_Window, 0
+5.004125, 93, Internal, End_Trial_Delay_Window, 
+5.005625, 51, Internal, Lick, Trial_Delay
+5.015169, 92, Internal, Start_Trial_Reception_Window, 0
+5.036255, 94, Internal, End_Trial_Reception_Window, 
+5.037938, 96, Internal, End_Trial, 
+5.045355, 61, Internal, Trial_Miss,
+5.046538, 22, Internal, Start_Punish_ITI, 0.117783
+5.097033, 50, Internal, Lick, ITI
+5.282757, 23, Internal, End_Punish_ITI, 
+5.284874, 91, External, Play_Audio_Tone_CS-, 0 Hz
+5.286344, 95, Internal, Start_Trial, 
+5.287888, 91, Internal, Start_Trial_Delay_Window, 0
+5.296125, 93, Internal, End_Trial_Delay_Window, 
+5.306025, 92, Internal, Start_Trial_Reception_Window, 0
+5.325425, 94, Internal, End_Trial_Reception_Window, 
+5.327375, 96, Internal, End_Trial, 
+5.337046, 100, External, Dispense_Reward, 0ml
+5.338495, 63, Internal, Trial_CR,
+5.339856, 20, Internal, Start_ITI, 0.138855
+5.494764, 21, Internal, End_ITI, 
+5.497161, 90, External, Play_Audio_Tone_CS+, 0 Hz
+5.498843, 95, Internal, Start_Trial, 
+5.500393, 91, Internal, Start_Trial_Delay_Window, 0
+5.508155, 93, Internal, End_Trial_Delay_Window, 
+5.517627, 92, Internal, Start_Trial_Reception_Window, 0
+5.539557, 94, Internal, End_Trial_Reception_Window, 
+5.541387, 96, Internal, End_Trial, 
+5.551131, 61, Internal, Trial_Miss,
+5.552564, 22, Internal, Start_Punish_ITI, 0.121048
+5.790248, 23, Internal, End_Punish_ITI, 
+5.792320, 90, External, Play_Audio_Tone_CS+, 0 Hz
+5.793712, 95, Internal, Start_Trial, 
+5.795091, 91, Internal, Start_Trial_Delay_Window, 0
+5.803096, 93, Internal, End_Trial_Delay_Window, 
+5.812605, 92, Internal, Start_Trial_Reception_Window, 0
+5.833470, 94, Internal, End_Trial_Reception_Window, 
+5.835020, 96, Internal, End_Trial, 
+5.843786, 61, Internal, Trial_Miss,
+5.845186, 22, Internal, Start_Punish_ITI, 0.107125
+6.063508, 23, Internal, End_Punish_ITI, 
+6.066589, 91, External, Play_Audio_Tone_CS-, 0 Hz
+6.068006, 95, Internal, Start_Trial, 
+6.069540, 91, Internal, Start_Trial_Delay_Window, 0
+6.077555, 93, Internal, End_Trial_Delay_Window, 
+6.089059, 92, Internal, Start_Trial_Reception_Window, 0
+6.109842, 94, Internal, End_Trial_Reception_Window, 
+6.111574, 96, Internal, End_Trial, 
+6.119476, 100, External, Dispense_Reward, 0ml
+6.120826, 63, Internal, Trial_CR,
+6.122101, 20, Internal, Start_ITI, 0.176967
+6.123439, 50, Internal, Lick, ITI
+6.319770, 21, Internal, End_ITI, 
+6.321935, 91, External, Play_Audio_Tone_CS-, 0 Hz
+6.323433, 95, Internal, Start_Trial, 
+6.324956, 91, Internal, Start_Trial_Delay_Window, 0
+6.333238, 93, Internal, End_Trial_Delay_Window, 
+6.342949, 92, Internal, Start_Trial_Reception_Window, 0
+6.362642, 94, Internal, End_Trial_Reception_Window, 
+6.364475, 96, Internal, End_Trial, 
+6.374138, 100, External, Dispense_Reward, 0ml
+6.375364, 63, Internal, Trial_CR,
+6.376590, 20, Internal, Start_ITI, 0.140880
+6.531623, 21, Internal, End_ITI, 
+6.533590, 91, External, Play_Audio_Tone_CS-, 0 Hz
+6.535020, 95, Internal, Start_Trial, 
+6.536391, 91, Internal, Start_Trial_Delay_Window, 0
+6.545986, 93, Internal, End_Trial_Delay_Window, 
+6.555638, 92, Internal, Start_Trial_Reception_Window, 0
+6.576441, 94, Internal, End_Trial_Reception_Window, 
+6.578094, 96, Internal, End_Trial, 
+6.587995, 100, External, Dispense_Reward, 0ml
+6.589176, 63, Internal, Trial_CR,
+6.590298, 20, Internal, Start_ITI, 0.157534
+6.736260, 50, Internal, Lick, ITI
+6.766994, 21, Internal, End_ITI, 
+6.769306, 90, External, Play_Audio_Tone_CS+, 0 Hz
+6.770772, 95, Internal, Start_Trial, 
+6.772565, 91, Internal, Start_Trial_Delay_Window, 0
+6.780889, 93, Internal, End_Trial_Delay_Window, 
+6.791993, 92, Internal, Start_Trial_Reception_Window, 0
+6.812719, 94, Internal, End_Trial_Reception_Window, 
+6.814310, 96, Internal, End_Trial, 
+6.822507, 61, Internal, Trial_Miss,
+6.824222, 22, Internal, Start_Punish_ITI, 0.183138
+7.125101, 23, Internal, End_Punish_ITI, 
+7.127658, 91, External, Play_Audio_Tone_CS-, 0 Hz
+7.129238, 95, Internal, Start_Trial, 
+7.131195, 91, Internal, Start_Trial_Delay_Window, 0
+7.139890, 93, Internal, End_Trial_Delay_Window, 
+7.149552, 92, Internal, Start_Trial_Reception_Window, 0
+7.170808, 94, Internal, End_Trial_Reception_Window, 
+7.172488, 96, Internal, End_Trial, 
+7.181930, 100, External, Dispense_Reward, 0ml
+7.183179, 63, Internal, Trial_CR,
+7.184419, 20, Internal, Start_ITI, 0.190130
+7.390999, 21, Internal, End_ITI, 
+7.393198, 91, External, Play_Audio_Tone_CS-, 0 Hz
+7.394732, 95, Internal, Start_Trial, 
+7.396074, 91, Internal, Start_Trial_Delay_Window, 0
+7.404872, 93, Internal, End_Trial_Delay_Window, 
+7.414512, 92, Internal, Start_Trial_Reception_Window, 0
+7.435826, 94, Internal, End_Trial_Reception_Window, 
+7.437998, 96, Internal, End_Trial, 
+7.447256, 100, External, Dispense_Reward, 0ml
+7.448678, 63, Internal, Trial_CR,
+7.450157, 20, Internal, Start_ITI, 0.114736
+7.577136, 21, Internal, End_ITI, 
+7.579283, 90, External, Play_Audio_Tone_CS+, 0 Hz
+7.580917, 95, Internal, Start_Trial, 
+7.582336, 91, Internal, Start_Trial_Delay_Window, 0
+7.589918, 93, Internal, End_Trial_Delay_Window, 
+7.599551, 92, Internal, Start_Trial_Reception_Window, 0
+7.622119, 94, Internal, End_Trial_Reception_Window, 
+7.624023, 96, Internal, End_Trial, 
+7.631918, 61, Internal, Trial_Miss,
+7.633345, 22, Internal, Start_Punish_ITI, 0.147814
+7.891932, 23, Internal, End_Punish_ITI, 
+7.894236, 90, External, Play_Audio_Tone_CS+, 0 Hz
+7.895813, 95, Internal, Start_Trial, 
+7.897442, 91, Internal, Start_Trial_Delay_Window, 0
+7.906326, 93, Internal, End_Trial_Delay_Window, 
+7.916003, 92, Internal, Start_Trial_Reception_Window, 0
+7.935490, 94, Internal, End_Trial_Reception_Window, 
+7.937566, 96, Internal, End_Trial, 
+7.946187, 61, Internal, Trial_Miss,
+7.947774, 22, Internal, Start_Punish_ITI, 0.137376
+8.199144, 23, Internal, End_Punish_ITI, 
+8.201237, 91, External, Play_Audio_Tone_CS-, 0 Hz
+8.202576, 95, Internal, Start_Trial, 
+8.203863, 91, Internal, Start_Trial_Delay_Window, 0
+8.213295, 93, Internal, End_Trial_Delay_Window, 
+8.222880, 92, Internal, Start_Trial_Reception_Window, 0
+8.243161, 94, Internal, End_Trial_Reception_Window, 
+8.245308, 96, Internal, End_Trial, 
+8.254102, 100, External, Dispense_Reward, 0ml
+8.255284, 63, Internal, Trial_CR,
+8.256463, 20, Internal, Start_ITI, 0.117729
+8.389472, 21, Internal, End_ITI, 
+8.391442, 91, External, Play_Audio_Tone_CS-, 0 Hz
+8.392631, 95, Internal, Start_Trial, 
+8.393897, 91, Internal, Start_Trial_Delay_Window, 0
+8.401613, 93, Internal, End_Trial_Delay_Window, 
+8.413088, 92, Internal, Start_Trial_Reception_Window, 0
+8.432562, 94, Internal, End_Trial_Reception_Window, 
+8.434036, 96, Internal, End_Trial, 
+8.444184, 100, External, Dispense_Reward, 0ml
+8.445748, 63, Internal, Trial_CR,
+8.447315, 20, Internal, Start_ITI, 0.150278
+8.614091, 21, Internal, End_ITI, 
+8.615799, 90, External, Play_Audio_Tone_CS+, 0 Hz
+8.617215, 95, Internal, Start_Trial, 
+8.618413, 91, Internal, Start_Trial_Delay_Window, 0
+8.627743, 93, Internal, End_Trial_Delay_Window, 
+8.638846, 92, Internal, Start_Trial_Reception_Window, 0
+8.660045, 94, Internal, End_Trial_Reception_Window, 
+8.661950, 96, Internal, End_Trial, 
+8.671144, 61, Internal, Trial_Miss,
+8.672659, 22, Internal, Start_Punish_ITI, 0.144688
+8.804665, 50, Internal, Lick, ITI
+8.928908, 23, Internal, End_Punish_ITI, 
+8.931075, 90, External, Play_Audio_Tone_CS+, 0 Hz
+8.932551, 95, Internal, Start_Trial, 
+8.934248, 91, Internal, Start_Trial_Delay_Window, 0
+8.943579, 93, Internal, End_Trial_Delay_Window, 
+8.955156, 92, Internal, Start_Trial_Reception_Window, 0
+8.974486, 94, Internal, End_Trial_Reception_Window, 
+8.975912, 96, Internal, End_Trial, 
+8.986143, 61, Internal, Trial_Miss,
+8.987636, 22, Internal, Start_Punish_ITI, 0.176234
+9.276754, 23, Internal, End_Punish_ITI, 
+9.279017, 91, External, Play_Audio_Tone_CS-, 0 Hz
+9.280369, 95, Internal, Start_Trial, 
+9.282054, 91, Internal, Start_Trial_Delay_Window, 0
+9.290382, 93, Internal, End_Trial_Delay_Window, 
+9.301608, 92, Internal, Start_Trial_Reception_Window, 0
+9.322407, 94, Internal, End_Trial_Reception_Window, 
+9.323911, 96, Internal, End_Trial, 
+9.333866, 100, External, Dispense_Reward, 0ml
+9.335359, 63, Internal, Trial_CR,
+9.336781, 20, Internal, Start_ITI, 0.130844
+9.479446, 21, Internal, End_ITI, 
+9.481358, 91, External, Play_Audio_Tone_CS-, 0 Hz
+9.482747, 95, Internal, Start_Trial, 
+9.484059, 91, Internal, Start_Trial_Delay_Window, 0
+9.494194, 93, Internal, End_Trial_Delay_Window, 
+9.503866, 92, Internal, Start_Trial_Reception_Window, 0
+9.525218, 94, Internal, End_Trial_Reception_Window, 
+9.526628, 96, Internal, End_Trial, 
+9.536260, 100, External, Dispense_Reward, 0ml
+9.537597, 63, Internal, Trial_CR,
+9.539095, 20, Internal, Start_ITI, 0.121377
+9.671929, 21, Internal, End_ITI, 
+9.674057, 90, External, Play_Audio_Tone_CS+, 0 Hz
+9.675625, 95, Internal, Start_Trial, 
+9.677208, 91, Internal, Start_Trial_Delay_Window, 0
+9.686515, 93, Internal, End_Trial_Delay_Window, 
+9.698234, 92, Internal, Start_Trial_Reception_Window, 0
+9.717648, 94, Internal, End_Trial_Reception_Window, 
+9.719364, 96, Internal, End_Trial, 
+9.727341, 61, Internal, Trial_Miss,
+9.728888, 22, Internal, Start_Punish_ITI, 0.113220
+9.953869, 23, Internal, End_Punish_ITI, 
+9.956093, 90, External, Play_Audio_Tone_CS+, 0 Hz
+9.957865, 95, Internal, Start_Trial, 
+9.959801, 91, Internal, Start_Trial_Delay_Window, 0
+9.967028, 93, Internal, End_Trial_Delay_Window, 
+9.976695, 92, Internal, Start_Trial_Reception_Window, 0
+9.998143, 94, Internal, End_Trial_Reception_Window, 
+10.000120, 96, Internal, End_Trial, 
+10.007760, 61, Internal, Trial_Miss,
+10.009171, 22, Internal, Start_Punish_ITI, 0.144544
+10.268719, 23, Internal, End_Punish_ITI, 
+10.271290, 90, External, Play_Audio_Tone_CS+, 0 Hz
+10.272605, 95, Internal, Start_Trial, 
+10.273768, 91, Internal, Start_Trial_Delay_Window, 0
+10.282980, 93, Internal, End_Trial_Delay_Window, 
+10.292900, 92, Internal, Start_Trial_Reception_Window, 0
+10.312530, 94, Internal, End_Trial_Reception_Window, 
+10.314716, 96, Internal, End_Trial, 
+10.322359, 61, Internal, Trial_Miss,
+10.323765, 22, Internal, Start_Punish_ITI, 0.101982
+10.383576, 50, Internal, Lick, ITI
+10.542858, 23, Internal, End_Punish_ITI, 
+10.544929, 91, External, Play_Audio_Tone_CS-, 0 Hz
+10.546564, 95, Internal, Start_Trial, 
+10.548450, 91, Internal, Start_Trial_Delay_Window, 0
+10.557779, 93, Internal, End_Trial_Delay_Window, 
+10.569279, 92, Internal, Start_Trial_Reception_Window, 0
+10.588823, 94, Internal, End_Trial_Reception_Window, 
+10.590306, 96, Internal, End_Trial, 
+10.598472, 100, External, Dispense_Reward, 0ml
+10.599790, 63, Internal, Trial_CR,
+10.600981, 20, Internal, Start_ITI, 0.115375
+10.705138, 50, Internal, Lick, ITI
+10.736247, 21, Internal, End_ITI, 
+10.737727, 90, External, Play_Audio_Tone_CS+, 0 Hz
+10.739176, 95, Internal, Start_Trial, 
+10.740471, 91, Internal, Start_Trial_Delay_Window, 0
+10.749994, 93, Internal, End_Trial_Delay_Window, 
+10.759603, 92, Internal, Start_Trial_Reception_Window, 0
+10.780930, 94, Internal, End_Trial_Reception_Window, 
+10.782442, 96, Internal, End_Trial, 
+10.792119, 61, Internal, Trial_Miss,
+10.793606, 22, Internal, Start_Punish_ITI, 0.135618
+11.041829, 23, Internal, End_Punish_ITI, 
+11.044142, 90, External, Play_Audio_Tone_CS+, 0 Hz
+11.048920, 95, Internal, Start_Trial, 
+11.051561, 91, Internal, Start_Trial_Delay_Window, 0
+11.057514, 93, Internal, End_Trial_Delay_Window, 
+11.069103, 92, Internal, Start_Trial_Reception_Window, 0
+11.088672, 94, Internal, End_Trial_Reception_Window, 
+11.090451, 96, Internal, End_Trial, 
+11.099742, 61, Internal, Trial_Miss,
+11.100973, 22, Internal, Start_Punish_ITI, 0.140526
+11.186224, 50, Internal, Lick, ITI
+11.236968, 50, Internal, Lick, ITI
+11.320141, 50, Internal, Lick, ITI
+11.361189, 23, Internal, End_Punish_ITI, 
+11.363469, 91, External, Play_Audio_Tone_CS-, 0 Hz
+11.365081, 95, Internal, Start_Trial, 
+11.366641, 91, Internal, Start_Trial_Delay_Window, 0
+11.374898, 93, Internal, End_Trial_Delay_Window, 
+11.384534, 92, Internal, Start_Trial_Reception_Window, 0
+11.407268, 94, Internal, End_Trial_Reception_Window, 
+11.408820, 96, Internal, End_Trial, 
+11.416698, 100, External, Dispense_Reward, 0ml
+11.418166, 63, Internal, Trial_CR,
+11.419514, 20, Internal, Start_ITI, 0.131966
+11.570356, 21, Internal, End_ITI, 
+11.572390, 91, External, Play_Audio_Tone_CS-, 0 Hz
+11.573769, 95, Internal, Start_Trial, 
+11.575161, 91, Internal, Start_Trial_Delay_Window, 0
+11.582887, 93, Internal, End_Trial_Delay_Window, 
+11.592571, 92, Internal, Start_Trial_Reception_Window, 0
+11.615223, 94, Internal, End_Trial_Reception_Window, 
+11.616998, 96, Internal, End_Trial, 
+11.625044, 100, External, Dispense_Reward, 0ml
+11.626629, 63, Internal, Trial_CR,
+11.628224, 20, Internal, Start_ITI, 0.127809
+11.774181, 21, Internal, End_ITI, 
+11.776157, 90, External, Play_Audio_Tone_CS+, 0 Hz
+11.777521, 95, Internal, Start_Trial, 
+11.778841, 91, Internal, Start_Trial_Delay_Window, 0
+11.787116, 93, Internal, End_Trial_Delay_Window, 
+11.796874, 92, Internal, Start_Trial_Reception_Window, 0
+11.818243, 94, Internal, End_Trial_Reception_Window, 
+11.819919, 96, Internal, End_Trial, 
+11.828079, 61, Internal, Trial_Miss,
+11.829739, 22, Internal, Start_Punish_ITI, 0.137291
+12.086799, 23, Internal, End_Punish_ITI, 
+12.089093, 91, External, Play_Audio_Tone_CS-, 0 Hz
+12.090613, 95, Internal, Start_Trial, 
+12.092047, 91, Internal, Start_Trial_Delay_Window, 0
+12.101540, 93, Internal, End_Trial_Delay_Window, 
+12.113159, 92, Internal, Start_Trial_Reception_Window, 0
+12.133733, 94, Internal, End_Trial_Reception_Window, 
+12.135637, 96, Internal, End_Trial, 
+12.143431, 63, Internal, Trial_CR,
+12.144656, 100, External, Dispense_Reward, 0ml
+12.145915, 20, Internal, Start_ITI, 0.165360
+12.329940, 21, Internal, End_ITI, 
+12.332326, 90, External, Play_Audio_Tone_CS+, 0 Hz
+12.333767, 95, Internal, Start_Trial, 
+12.335387, 91, Internal, Start_Trial_Delay_Window, 0
+12.344669, 93, Internal, End_Trial_Delay_Window, 
+12.356228, 92, Internal, Start_Trial_Reception_Window, 0
+12.375654, 94, Internal, End_Trial_Reception_Window, 
+12.378260, 52, Internal, Lick, Trial_Reception_Window
+12.379694, 96, Internal, End_Trial, 
+12.385435, 100, External, Dispense_Reward, 0ml
+12.386969, 60, Internal, Trial_Hit,
+12.388499, 20, Internal, Start_ITI, 0.181113
+12.584631, 21, Internal, End_ITI, 
+12.586934, 90, External, Play_Audio_Tone_CS+, 0 Hz
+12.588449, 95, Internal, Start_Trial, 
+12.590083, 91, Internal, Start_Trial_Delay_Window, 0
+12.597598, 93, Internal, End_Trial_Delay_Window, 
+12.609045, 92, Internal, Start_Trial_Reception_Window, 0
+12.628589, 94, Internal, End_Trial_Reception_Window, 
+12.630345, 96, Internal, End_Trial, 
+12.638492, 61, Internal, Trial_Miss,
+12.639886, 22, Internal, Start_Punish_ITI, 0.127004
+12.857148, 50, Internal, Lick, ITI
+12.886453, 23, Internal, End_Punish_ITI, 
+12.888508, 91, External, Play_Audio_Tone_CS-, 0 Hz
+12.890271, 95, Internal, Start_Trial, 
+12.891657, 91, Internal, Start_Trial_Delay_Window, 0
+12.900377, 93, Internal, End_Trial_Delay_Window, 
+12.911986, 92, Internal, Start_Trial_Reception_Window, 0
+12.933194, 94, Internal, End_Trial_Reception_Window, 
+12.935468, 96, Internal, End_Trial, 
+12.944174, 100, External, Dispense_Reward, 0ml
+12.945442, 63, Internal, Trial_CR,
+12.946751, 20, Internal, Start_ITI, 0.120491
+13.079976, 21, Internal, End_ITI, 
+13.082333, 91, External, Play_Audio_Tone_CS-, 0 Hz
+13.083861, 95, Internal, Start_Trial, 
+13.085290, 91, Internal, Start_Trial_Delay_Window, 0
+13.094629, 93, Internal, End_Trial_Delay_Window, 
+13.105893, 92, Internal, Start_Trial_Reception_Window, 0
+13.126866, 94, Internal, End_Trial_Reception_Window, 
+13.128660, 96, Internal, End_Trial, 
+13.136461, 100, External, Dispense_Reward, 0ml
+13.137886, 63, Internal, Trial_CR,
+13.139263, 20, Internal, Start_ITI, 0.138180
+13.295824, 21, Internal, End_ITI, 
+13.297940, 91, External, Play_Audio_Tone_CS-, 0 Hz
+13.299425, 95, Internal, Start_Trial, 
+13.300981, 91, Internal, Start_Trial_Delay_Window, 0
+13.309323, 93, Internal, End_Trial_Delay_Window, 
+13.318355, 92, Internal, Start_Trial_Reception_Window, 0
+13.339665, 94, Internal, End_Trial_Reception_Window, 
+13.342085, 96, Internal, End_Trial, 
+13.351215, 100, External, Dispense_Reward, 0ml
+13.352711, 63, Internal, Trial_CR,
+13.354193, 20, Internal, Start_ITI, 0.185885
+13.559563, 21, Internal, End_ITI, 
+13.561652, 90, External, Play_Audio_Tone_CS+, 0 Hz
+13.563107, 95, Internal, Start_Trial, 
+13.564546, 91, Internal, Start_Trial_Delay_Window, 0
+13.572983, 93, Internal, End_Trial_Delay_Window, 
+13.582870, 92, Internal, Start_Trial_Reception_Window, 0
+13.604316, 94, Internal, End_Trial_Reception_Window, 
+13.606697, 96, Internal, End_Trial, 
+13.613846, 61, Internal, Trial_Miss,
+13.614999, 22, Internal, Start_Punish_ITI, 0.163377
+13.893283, 23, Internal, End_Punish_ITI, 
+13.895714, 90, External, Play_Audio_Tone_CS+, 0 Hz
+13.898068, 95, Internal, Start_Trial, 
+13.899502, 91, Internal, Start_Trial_Delay_Window, 0
+13.907746, 93, Internal, End_Trial_Delay_Window, 
+13.917704, 92, Internal, Start_Trial_Reception_Window, 0
+13.939102, 94, Internal, End_Trial_Reception_Window, 
+13.940606, 96, Internal, End_Trial, 
+13.949002, 61, Internal, Trial_Miss,
+13.950203, 22, Internal, Start_Punish_ITI, 0.110481
+14.136543, 50, Internal, Lick, ITI
+14.179242, 23, Internal, End_Punish_ITI, 
+14.180891, 91, External, Play_Audio_Tone_CS-, 0 Hz
+14.182286, 95, Internal, Start_Trial, 
+14.183818, 91, Internal, Start_Trial_Delay_Window, 0
+14.192184, 93, Internal, End_Trial_Delay_Window, 
+14.201982, 92, Internal, Start_Trial_Reception_Window, 0
+14.223309, 94, Internal, End_Trial_Reception_Window, 
+14.225209, 96, Internal, End_Trial, 
+14.232364, 100, External, Dispense_Reward, 0ml
+14.234118, 63, Internal, Trial_CR,
+14.234951, 20, Internal, Start_ITI, 0.173096
+14.419493, 21, Internal, End_ITI, 
+14.421648, 90, External, Play_Audio_Tone_CS+, 0 Hz
+14.423099, 95, Internal, Start_Trial, 
+14.424596, 51, Internal, Lick, Trial_Delay
+14.426217, 91, Internal, Start_Trial_Delay_Window, 0
+14.433099, 93, Internal, End_Trial_Delay_Window, 
+14.442920, 92, Internal, Start_Trial_Reception_Window, 0
+14.463702, 94, Internal, End_Trial_Reception_Window, 
+14.465276, 96, Internal, End_Trial, 
+14.475028, 61, Internal, Trial_Miss,
+14.476248, 22, Internal, Start_Punish_ITI, 0.113987
+14.701914, 23, Internal, End_Punish_ITI, 
+14.704129, 91, External, Play_Audio_Tone_CS-, 0 Hz
+14.705625, 95, Internal, Start_Trial, 
+14.707050, 91, Internal, Start_Trial_Delay_Window, 0
+14.714792, 93, Internal, End_Trial_Delay_Window, 
+14.724352, 92, Internal, Start_Trial_Reception_Window, 0
+14.745805, 94, Internal, End_Trial_Reception_Window, 
+14.747732, 96, Internal, End_Trial, 
+14.755370, 100, External, Dispense_Reward, 0ml
+14.756876, 63, Internal, Trial_CR,
+14.757988, 20, Internal, Start_ITI, 0.193017
+14.964417, 21, Internal, End_ITI, 
+14.967098, 90, External, Play_Audio_Tone_CS+, 0 Hz
+14.968362, 95, Internal, Start_Trial, 
+14.969569, 91, Internal, Start_Trial_Delay_Window, 0
+14.979537, 93, Internal, End_Trial_Delay_Window, 
+14.991053, 92, Internal, Start_Trial_Reception_Window, 0
+15.010523, 94, Internal, End_Trial_Reception_Window, 
+15.012461, 96, Internal, End_Trial, 
+15.022099, 61, Internal, Trial_Miss,
+15.023645, 22, Internal, Start_Punish_ITI, 0.160840
+15.302204, 23, Internal, End_Punish_ITI, 
+15.304443, 90, External, Play_Audio_Tone_CS+, 0 Hz
+15.305921, 95, Internal, Start_Trial, 
+15.307310, 91, Internal, Start_Trial_Delay_Window, 0
+15.316105, 93, Internal, End_Trial_Delay_Window, 
+15.325602, 92, Internal, Start_Trial_Reception_Window, 0
+15.346478, 94, Internal, End_Trial_Reception_Window, 
+15.347952, 96, Internal, End_Trial, 
+15.357961, 61, Internal, Trial_Miss,
+15.359363, 22, Internal, Start_Punish_ITI, 0.129150
+15.360694, 50, Internal, Lick, ITI
+15.600237, 23, Internal, End_Punish_ITI, 
+15.602384, 90, External, Play_Audio_Tone_CS+, 0 Hz
+15.603814, 95, Internal, Start_Trial, 
+15.605363, 91, Internal, Start_Trial_Delay_Window, 0
+15.613032, 93, Internal, End_Trial_Delay_Window, 
+15.622763, 92, Internal, Start_Trial_Reception_Window, 0
+15.643916, 94, Internal, End_Trial_Reception_Window, 
+15.645655, 96, Internal, End_Trial, 
+15.654881, 61, Internal, Trial_Miss,
+15.656410, 22, Internal, Start_Punish_ITI, 0.113605
+15.884147, 23, Internal, End_Punish_ITI, 
+15.886265, 91, External, Play_Audio_Tone_CS-, 0 Hz
+15.887864, 95, Internal, Start_Trial, 
+15.889442, 91, Internal, Start_Trial_Delay_Window, 0
+15.898878, 93, Internal, End_Trial_Delay_Window, 
+15.909874, 92, Internal, Start_Trial_Reception_Window, 0
+15.931131, 94, Internal, End_Trial_Reception_Window, 
+15.932749, 96, Internal, End_Trial, 
+15.941052, 100, External, Dispense_Reward, 0ml
+15.942655, 63, Internal, Trial_CR,
+15.944055, 20, Internal, Start_ITI, 0.144658
+15.986118, 50, Internal, Lick, ITI
+16.101010, 21, Internal, End_ITI, 
+16.103238, 90, External, Play_Audio_Tone_CS+, 0 Hz
+16.104745, 95, Internal, Start_Trial, 
+16.106184, 91, Internal, Start_Trial_Delay_Window, 0
+16.115859, 93, Internal, End_Trial_Delay_Window, 
+16.125456, 92, Internal, Start_Trial_Reception_Window, 0
+16.147092, 94, Internal, End_Trial_Reception_Window, 
+16.148934, 96, Internal, End_Trial, 
+16.157055, 61, Internal, Trial_Miss,
+16.159110, 22, Internal, Start_Punish_ITI, 0.137643
+16.409846, 23, Internal, End_Punish_ITI, 
+16.411665, 90, External, Play_Audio_Tone_CS+, 0 Hz
+16.412787, 95, Internal, Start_Trial, 
+16.413937, 91, Internal, Start_Trial_Delay_Window, 0
+16.422726, 93, Internal, End_Trial_Delay_Window, 
+16.434258, 92, Internal, Start_Trial_Reception_Window, 0
+16.453662, 94, Internal, End_Trial_Reception_Window, 
+16.455759, 96, Internal, End_Trial, 
+16.465191, 61, Internal, Trial_Miss,
+16.467157, 22, Internal, Start_Punish_ITI, 0.186670
+16.766118, 23, Internal, End_Punish_ITI, 
+16.769004, 91, External, Play_Audio_Tone_CS-, 0 Hz
+16.770381, 95, Internal, Start_Trial, 
+16.771687, 91, Internal, Start_Trial_Delay_Window, 0
+16.780210, 93, Internal, End_Trial_Delay_Window, 
+16.789495, 92, Internal, Start_Trial_Reception_Window, 0
+16.812134, 94, Internal, End_Trial_Reception_Window, 
+16.813853, 96, Internal, End_Trial, 
+16.821927, 100, External, Dispense_Reward, 0ml
+16.823713, 63, Internal, Trial_CR,
+16.825326, 20, Internal, Start_ITI, 0.160990
+17.003627, 21, Internal, End_ITI, 
+17.005470, 91, External, Play_Audio_Tone_CS-, 0 Hz
+17.007365, 95, Internal, Start_Trial, 
+17.008664, 91, Internal, Start_Trial_Delay_Window, 0
+17.017345, 93, Internal, End_Trial_Delay_Window, 
+17.028910, 92, Internal, Start_Trial_Reception_Window, 0
+17.050131, 94, Internal, End_Trial_Reception_Window, 
+17.051813, 96, Internal, End_Trial, 
+17.059839, 100, External, Dispense_Reward, 0ml
+17.061259, 63, Internal, Trial_CR,
+17.062580, 20, Internal, Start_ITI, 0.179577
+17.260215, 21, Internal, End_ITI, 
+17.262353, 90, External, Play_Audio_Tone_CS+, 0 Hz
+17.263669, 95, Internal, Start_Trial, 
+17.264890, 91, Internal, Start_Trial_Delay_Window, 0
+17.273199, 93, Internal, End_Trial_Delay_Window, 
+17.282634, 92, Internal, Start_Trial_Reception_Window, 0
+17.304374, 94, Internal, End_Trial_Reception_Window, 
+17.306285, 96, Internal, End_Trial, 
+17.315740, 61, Internal, Trial_Miss,
+17.317249, 22, Internal, Start_Punish_ITI, 0.140295
+17.575361, 23, Internal, End_Punish_ITI, 
+17.577565, 91, External, Play_Audio_Tone_CS-, 0 Hz
+17.578911, 95, Internal, Start_Trial, 
+17.580256, 91, Internal, Start_Trial_Delay_Window, 0
+17.588546, 93, Internal, End_Trial_Delay_Window, 
+17.600130, 92, Internal, Start_Trial_Reception_Window, 0
+17.619355, 94, Internal, End_Trial_Reception_Window, 
+17.621192, 96, Internal, End_Trial, 
+17.631242, 100, External, Dispense_Reward, 0ml
+17.633006, 63, Internal, Trial_CR,
+17.634612, 20, Internal, Start_ITI, 0.144119
+17.799122, 21, Internal, End_ITI, 
+17.801064, 91, External, Play_Audio_Tone_CS-, 0 Hz
+17.802484, 95, Internal, Start_Trial, 
+17.803872, 91, Internal, Start_Trial_Delay_Window, 0
+17.813708, 93, Internal, End_Trial_Delay_Window, 
+17.824854, 92, Internal, Start_Trial_Reception_Window, 0
+17.846039, 94, Internal, End_Trial_Reception_Window, 
+17.847564, 96, Internal, End_Trial, 
+17.855923, 100, External, Dispense_Reward, 0ml
+17.857472, 63, Internal, Trial_CR,
+17.859145, 20, Internal, Start_ITI, 0.174013
+18.051393, 21, Internal, End_ITI, 
+18.053660, 90, External, Play_Audio_Tone_CS+, 0 Hz
+18.055496, 95, Internal, Start_Trial, 
+18.056953, 91, Internal, Start_Trial_Delay_Window, 0
+18.065747, 93, Internal, End_Trial_Delay_Window, 
+18.075399, 92, Internal, Start_Trial_Reception_Window, 0
+18.096907, 94, Internal, End_Trial_Reception_Window, 
+18.098505, 96, Internal, End_Trial, 
+18.106815, 61, Internal, Trial_Miss,
+18.108187, 22, Internal, Start_Punish_ITI, 0.156177
+18.292667, 50, Internal, Lick, ITI
+18.376384, 23, Internal, End_Punish_ITI, 
+18.378566, 91, External, Play_Audio_Tone_CS-, 0 Hz
+18.379933, 95, Internal, Start_Trial, 
+18.381440, 91, Internal, Start_Trial_Delay_Window, 0
+18.389218, 93, Internal, End_Trial_Delay_Window, 
+18.399026, 92, Internal, Start_Trial_Reception_Window, 0
+18.430235, 94, Internal, End_Trial_Reception_Window, 
+18.431982, 96, Internal, End_Trial, 
+18.439709, 100, External, Dispense_Reward, 0ml
+18.441030, 63, Internal, Trial_CR,
+18.442647, 20, Internal, Start_ITI, 0.161499
+18.617489, 21, Internal, End_ITI, 
+18.619421, 90, External, Play_Audio_Tone_CS+, 0 Hz
+18.620815, 95, Internal, Start_Trial, 
+18.622344, 91, Internal, Start_Trial_Delay_Window, 0
+18.631062, 93, Internal, End_Trial_Delay_Window, 
+18.642213, 92, Internal, Start_Trial_Reception_Window, 0
+18.661470, 94, Internal, End_Trial_Reception_Window, 
+18.663077, 96, Internal, End_Trial, 
+18.671392, 61, Internal, Trial_Miss,
+18.672643, 22, Internal, Start_Punish_ITI, 0.162484
+18.774646, 50, Internal, Lick, ITI
+18.901882, 50, Internal, Lick, ITI
+18.952496, 23, Internal, End_Punish_ITI, 
+18.954549, 90, External, Play_Audio_Tone_CS+, 0 Hz
+18.956063, 95, Internal, Start_Trial, 
+18.957652, 91, Internal, Start_Trial_Delay_Window, 0
+18.965403, 93, Internal, End_Trial_Delay_Window, 
+18.976866, 92, Internal, Start_Trial_Reception_Window, 0
+18.997554, 94, Internal, End_Trial_Reception_Window, 
+18.999486, 96, Internal, End_Trial, 
+19.009056, 61, Internal, Trial_Miss,
+19.010321, 22, Internal, Start_Punish_ITI, 0.149522
+19.270858, 23, Internal, End_Punish_ITI, 
+19.273501, 91, External, Play_Audio_Tone_CS-, 0 Hz
+19.274997, 95, Internal, Start_Trial, 
+19.276054, 91, Internal, Start_Trial_Delay_Window, 0
+19.285537, 93, Internal, End_Trial_Delay_Window, 
+19.297092, 92, Internal, Start_Trial_Reception_Window, 0
+19.317771, 94, Internal, End_Trial_Reception_Window, 
+19.319781, 96, Internal, End_Trial, 
+19.327628, 63, Internal, Trial_CR,
+19.329031, 100, External, Dispense_Reward, 0ml
+19.330368, 20, Internal, Start_ITI, 0.103719
+19.453535, 21, Internal, End_ITI, 
+19.455665, 90, External, Play_Audio_Tone_CS+, 0 Hz
+19.457895, 95, Internal, Start_Trial, 
+19.459436, 91, Internal, Start_Trial_Delay_Window, 0
+19.468915, 93, Internal, End_Trial_Delay_Window, 
+19.478670, 92, Internal, Start_Trial_Reception_Window, 0
+19.499440, 94, Internal, End_Trial_Reception_Window, 
+19.501079, 96, Internal, End_Trial, 
+19.511017, 61, Internal, Trial_Miss,
+19.512822, 22, Internal, Start_Punish_ITI, 0.164155
+19.793071, 23, Internal, End_Punish_ITI, 
+19.795329, 91, External, Play_Audio_Tone_CS-, 0 Hz
+19.797311, 95, Internal, Start_Trial, 
+19.798808, 91, Internal, Start_Trial_Delay_Window, 0
+19.806358, 93, Internal, End_Trial_Delay_Window, 
+19.817562, 92, Internal, Start_Trial_Reception_Window, 0
+19.840152, 94, Internal, End_Trial_Reception_Window, 
+19.841827, 96, Internal, End_Trial, 
+19.849802, 100, External, Dispense_Reward, 0ml
+19.851774, 63, Internal, Trial_CR,
+19.853688, 20, Internal, Start_ITI, 0.141353
+20.009198, 21, Internal, End_ITI, 
+20.011180, 91, External, Play_Audio_Tone_CS-, 0 Hz
+20.012659, 95, Internal, Start_Trial, 
+20.014102, 91, Internal, Start_Trial_Delay_Window, 0
+20.021674, 93, Internal, End_Trial_Delay_Window, 
+20.031376, 92, Internal, Start_Trial_Reception_Window, 0
+20.054177, 94, Internal, End_Trial_Reception_Window, 
+20.055658, 96, Internal, End_Trial, 
+20.063575, 100, External, Dispense_Reward, 0ml
+20.065115, 63, Internal, Trial_CR,
+20.066733, 20, Internal, Start_ITI, 0.192384
+20.171289, 50, Internal, Lick, ITI
+20.274562, 21, Internal, End_ITI, 
+20.276370, 90, External, Play_Audio_Tone_CS+, 0 Hz
+20.277721, 95, Internal, Start_Trial, 
+20.279329, 91, Internal, Start_Trial_Delay_Window, 0
+20.288390, 93, Internal, End_Trial_Delay_Window, 
+20.298348, 92, Internal, Start_Trial_Reception_Window, 0
+20.318529, 94, Internal, End_Trial_Reception_Window, 
+20.321063, 96, Internal, End_Trial, 
+20.329362, 61, Internal, Trial_Miss,
+20.330534, 22, Internal, Start_Punish_ITI, 0.132774
+20.401788, 50, Internal, Lick, ITI
+20.576383, 23, Internal, End_Punish_ITI, 
+20.578535, 91, External, Play_Audio_Tone_CS-, 0 Hz
+20.580299, 95, Internal, Start_Trial, 
+20.582129, 91, Internal, Start_Trial_Delay_Window, 0
+20.598889, 93, Internal, End_Trial_Delay_Window, 
+20.608459, 92, Internal, Start_Trial_Reception_Window, 0
+20.630068, 94, Internal, End_Trial_Reception_Window, 
+20.631448, 96, Internal, End_Trial, 
+20.639904, 100, External, Dispense_Reward, 0ml
+20.641023, 63, Internal, Trial_CR,
+20.642106, 20, Internal, Start_ITI, 0.141060
+20.797066, 21, Internal, End_ITI, 
+20.799438, 91, External, Play_Audio_Tone_CS-, 0 Hz
+20.801246, 95, Internal, Start_Trial, 
+20.802581, 91, Internal, Start_Trial_Delay_Window, 0
+20.810869, 93, Internal, End_Trial_Delay_Window, 
+20.820642, 92, Internal, Start_Trial_Reception_Window, 0
+20.841923, 94, Internal, End_Trial_Reception_Window, 
+20.843476, 96, Internal, End_Trial, 
+20.852998, 100, External, Dispense_Reward, 0ml
+20.854560, 63, Internal, Trial_CR,
+20.856419, 20, Internal, Start_ITI, 0.177439
+21.051794, 21, Internal, End_ITI, 
+21.053830, 90, External, Play_Audio_Tone_CS+, 0 Hz
+21.055383, 95, Internal, Start_Trial, 
+21.058475, 91, Internal, Start_Trial_Delay_Window, 0
+21.064824, 93, Internal, End_Trial_Delay_Window, 
+21.076262, 92, Internal, Start_Trial_Reception_Window, 0
+21.097021, 94, Internal, End_Trial_Reception_Window, 
+21.098532, 96, Internal, End_Trial, 
+21.106916, 61, Internal, Trial_Miss,
+21.108459, 22, Internal, Start_Punish_ITI, 0.197678
+21.140999, 50, Internal, Lick, ITI
+21.420911, 23, Internal, End_Punish_ITI, 
+21.422753, 91, External, Play_Audio_Tone_CS-, 0 Hz
+21.424154, 95, Internal, Start_Trial, 
+21.425704, 91, Internal, Start_Trial_Delay_Window, 0
+21.434865, 93, Internal, End_Trial_Delay_Window, 
+21.444570, 92, Internal, Start_Trial_Reception_Window, 0
+21.465991, 94, Internal, End_Trial_Reception_Window, 
+21.468257, 96, Internal, End_Trial, 
+21.476932, 100, External, Dispense_Reward, 0ml
+21.478318, 63, Internal, Trial_CR,
+21.479418, 20, Internal, Start_ITI, 0.180116
+21.674857, 21, Internal, End_ITI, 
+21.676653, 90, External, Play_Audio_Tone_CS+, 0 Hz
+21.678096, 95, Internal, Start_Trial, 
+21.679552, 91, Internal, Start_Trial_Delay_Window, 0
+21.688591, 93, Internal, End_Trial_Delay_Window, 
+21.698371, 92, Internal, Start_Trial_Reception_Window, 0
+21.719746, 94, Internal, End_Trial_Reception_Window, 
+21.721483, 96, Internal, End_Trial, 
+21.729724, 61, Internal, Trial_Miss,
+21.731303, 22, Internal, Start_Punish_ITI, 0.107928
+21.960123, 23, Internal, End_Punish_ITI, 
+21.962708, 90, External, Play_Audio_Tone_CS+, 0 Hz
+21.964501, 95, Internal, Start_Trial, 
+21.966205, 91, Internal, Start_Trial_Delay_Window, 0
+21.974971, 93, Internal, End_Trial_Delay_Window, 
+21.985766, 92, Internal, Start_Trial_Reception_Window, 0
+22.006841, 94, Internal, End_Trial_Reception_Window, 
+22.008365, 96, Internal, End_Trial, 
+22.017839, 61, Internal, Trial_Miss,
+22.019082, 22, Internal, Start_Punish_ITI, 0.192906
+22.327363, 23, Internal, End_Punish_ITI, 
+22.329662, 91, External, Play_Audio_Tone_CS-, 0 Hz
+22.331593, 95, Internal, Start_Trial, 
+22.333136, 91, Internal, Start_Trial_Delay_Window, 0
+22.342152, 93, Internal, End_Trial_Delay_Window, 
+22.351947, 92, Internal, Start_Trial_Reception_Window, 0
+22.373206, 94, Internal, End_Trial_Reception_Window, 
+22.375223, 96, Internal, End_Trial, 
+22.383048, 100, External, Dispense_Reward, 0ml
+22.384441, 63, Internal, Trial_CR,
+22.385912, 20, Internal, Start_ITI, 0.122018
+22.519845, 21, Internal, End_ITI, 
+22.522043, 90, External, Play_Audio_Tone_CS+, 0 Hz
+22.523878, 95, Internal, Start_Trial, 
+22.525463, 91, Internal, Start_Trial_Delay_Window, 0
+22.534402, 93, Internal, End_Trial_Delay_Window, 
+22.546040, 92, Internal, Start_Trial_Reception_Window, 0
+22.565477, 94, Internal, End_Trial_Reception_Window, 
+22.567084, 96, Internal, End_Trial, 
+22.575442, 61, Internal, Trial_Miss,
+22.577233, 22, Internal, Start_Punish_ITI, 0.131008
+22.829101, 23, Internal, End_Punish_ITI, 
+22.831065, 90, External, Play_Audio_Tone_CS+, 0 Hz
+22.832590, 95, Internal, Start_Trial, 
+22.833750, 91, Internal, Start_Trial_Delay_Window, 0
+22.841706, 93, Internal, End_Trial_Delay_Window, 
+22.852835, 92, Internal, Start_Trial_Reception_Window, 0
+22.874229, 94, Internal, End_Trial_Reception_Window, 
+22.875959, 96, Internal, End_Trial, 
+22.883778, 61, Internal, Trial_Miss,
+22.885655, 22, Internal, Start_Punish_ITI, 0.145507
+22.998150, 50, Internal, Lick, ITI
+23.143819, 23, Internal, End_Punish_ITI, 
+23.146180, 91, External, Play_Audio_Tone_CS-, 0 Hz
+23.148291, 95, Internal, Start_Trial, 
+23.149874, 91, Internal, Start_Trial_Delay_Window, 0
+23.158125, 93, Internal, End_Trial_Delay_Window, 
+23.169202, 92, Internal, Start_Trial_Reception_Window, 0
+23.188512, 94, Internal, End_Trial_Reception_Window, 
+23.190134, 96, Internal, End_Trial, 
+23.198515, 100, External, Dispense_Reward, 0ml
+23.200482, 63, Internal, Trial_CR,
+23.202333, 20, Internal, Start_ITI, 0.144785
+23.366504, 21, Internal, End_ITI, 
+23.368945, 91, External, Play_Audio_Tone_CS-, 0 Hz
+23.370581, 95, Internal, Start_Trial, 
+23.371856, 91, Internal, Start_Trial_Delay_Window, 0
+23.381141, 93, Internal, End_Trial_Delay_Window, 
+23.390655, 92, Internal, Start_Trial_Reception_Window, 0
+23.412219, 94, Internal, End_Trial_Reception_Window, 
+23.414271, 96, Internal, End_Trial, 
+23.421768, 100, External, Dispense_Reward, 0ml
+23.423122, 63, Internal, Trial_CR,
+23.424734, 20, Internal, Start_ITI, 0.174872
+23.457144, 50, Internal, Lick, ITI
+23.498288, 50, Internal, Lick, ITI
+23.615160, 21, Internal, End_ITI, 
+23.617376, 90, External, Play_Audio_Tone_CS+, 0 Hz
+23.618746, 95, Internal, Start_Trial, 
+23.620036, 91, Internal, Start_Trial_Delay_Window, 0
+23.628005, 93, Internal, End_Trial_Delay_Window, 
+23.637659, 92, Internal, Start_Trial_Reception_Window, 0
+23.658520, 94, Internal, End_Trial_Reception_Window, 
+23.660634, 96, Internal, End_Trial, 
+23.670101, 61, Internal, Trial_Miss,
+23.671681, 22, Internal, Start_Punish_ITI, 0.165068
+23.673005, 50, Internal, Lick, ITI
+23.958279, 23, Internal, End_Punish_ITI, 
+23.960458, 91, External, Play_Audio_Tone_CS-, 0 Hz
+23.962123, 95, Internal, Start_Trial, 
+23.963466, 91, Internal, Start_Trial_Delay_Window, 0
+23.971990, 93, Internal, End_Trial_Delay_Window, 
+23.981709, 92, Internal, Start_Trial_Reception_Window, 0
+24.003019, 94, Internal, End_Trial_Reception_Window, 
+24.004610, 96, Internal, End_Trial, 
+24.012827, 63, Internal, Trial_CR,
+24.015007, 100, External, Dispense_Reward, 0ml
+24.016929, 20, Internal, Start_ITI, 0.163886
+24.130892, 50, Internal, Lick, ITI
+24.192643, 21, Internal, End_ITI, 
+24.194452, 91, External, Play_Audio_Tone_CS-, 0 Hz
+24.196295, 95, Internal, Start_Trial, 
+24.197853, 51, Internal, Lick, Trial_Delay
+24.199505, 91, Internal, Start_Trial_Delay_Window, 0
+24.207129, 93, Internal, End_Trial_Delay_Window, 
+24.216830, 92, Internal, Start_Trial_Reception_Window, 0
+24.238143, 94, Internal, End_Trial_Reception_Window, 
+24.240034, 96, Internal, End_Trial, 
+24.249240, 62, Internal, Trial_FA,
+24.250858, 22, Internal, Start_Punish_ITI, 0.183858
+24.551884, 23, Internal, End_Punish_ITI, 
+24.554229, 90, External, Play_Audio_Tone_CS+, 0 Hz
+24.555853, 95, Internal, Start_Trial, 
+24.557146, 91, Internal, Start_Trial_Delay_Window, 0
+24.566465, 93, Internal, End_Trial_Delay_Window, 
+24.578124, 92, Internal, Start_Trial_Reception_Window, 0
+24.597432, 94, Internal, End_Trial_Reception_Window, 
+24.599062, 96, Internal, End_Trial, 
+24.608513, 61, Internal, Trial_Miss,
+24.610036, 22, Internal, Start_Punish_ITI, 0.139708
+24.866370, 23, Internal, End_Punish_ITI, 
+24.868647, 91, External, Play_Audio_Tone_CS-, 0 Hz
+24.870061, 95, Internal, Start_Trial, 
+24.871506, 91, Internal, Start_Trial_Delay_Window, 0
+24.879611, 93, Internal, End_Trial_Delay_Window, 
+24.890752, 92, Internal, Start_Trial_Reception_Window, 0
+24.911991, 94, Internal, End_Trial_Reception_Window, 
+24.913601, 96, Internal, End_Trial, 
+24.921730, 100, External, Dispense_Reward, 0ml
+24.922865, 63, Internal, Trial_CR,
+24.924162, 20, Internal, Start_ITI, 0.119174
+25.058810, 21, Internal, End_ITI, 
+25.060906, 91, External, Play_Audio_Tone_CS-, 0 Hz
+25.062338, 95, Internal, Start_Trial, 
+25.063565, 91, Internal, Start_Trial_Delay_Window, 0
+25.071505, 93, Internal, End_Trial_Delay_Window, 
+25.082937, 92, Internal, Start_Trial_Reception_Window, 0
+25.102459, 94, Internal, End_Trial_Reception_Window, 
+25.103802, 96, Internal, End_Trial, 
+25.114155, 100, External, Dispense_Reward, 0ml
+25.115271, 63, Internal, Trial_CR,
+25.116706, 20, Internal, Start_ITI, 0.145060
+25.279423, 21, Internal, End_ITI, 
+25.281629, 90, External, Play_Audio_Tone_CS+, 0 Hz
+25.283298, 95, Internal, Start_Trial, 
+25.284945, 91, Internal, Start_Trial_Delay_Window, 0
+25.292830, 93, Internal, End_Trial_Delay_Window, 
+25.302857, 92, Internal, Start_Trial_Reception_Window, 0
+25.324160, 94, Internal, End_Trial_Reception_Window, 
+25.326487, 96, Internal, End_Trial, 
+25.334080, 61, Internal, Trial_Miss,
+25.335798, 22, Internal, Start_Punish_ITI, 0.100282
+25.553636, 23, Internal, End_Punish_ITI, 
+25.556283, 91, External, Play_Audio_Tone_CS-, 0 Hz
+25.557630, 95, Internal, Start_Trial, 
+25.558818, 91, Internal, Start_Trial_Delay_Window, 0
+25.569270, 93, Internal, End_Trial_Delay_Window, 
+25.578920, 92, Internal, Start_Trial_Reception_Window, 0
+25.599612, 94, Internal, End_Trial_Reception_Window, 
+25.601179, 96, Internal, End_Trial, 
+25.611032, 100, External, Dispense_Reward, 0ml
+25.612260, 63, Internal, Trial_CR,
+25.613577, 20, Internal, Start_ITI, 0.155627
+25.788863, 21, Internal, End_ITI, 
+25.791104, 91, External, Play_Audio_Tone_CS-, 0 Hz
+25.792450, 95, Internal, Start_Trial, 
+25.793900, 91, Internal, Start_Trial_Delay_Window, 0
+25.801815, 93, Internal, End_Trial_Delay_Window, 
+25.811486, 92, Internal, Start_Trial_Reception_Window, 0
+25.834110, 94, Internal, End_Trial_Reception_Window, 
+25.835702, 96, Internal, End_Trial, 
+25.843609, 100, External, Dispense_Reward, 0ml
+25.845461, 63, Internal, Trial_CR,
+25.846877, 20, Internal, Start_ITI, 0.176423
+26.035240, 21, Internal, End_ITI, 
+26.037352, 91, External, Play_Audio_Tone_CS-, 0 Hz
+26.038795, 95, Internal, Start_Trial, 
+26.040378, 91, Internal, Start_Trial_Delay_Window, 0
+26.048062, 93, Internal, End_Trial_Delay_Window, 
+26.057720, 92, Internal, Start_Trial_Reception_Window, 0
+26.079943, 94, Internal, End_Trial_Reception_Window, 
+26.081264, 96, Internal, End_Trial, 
+26.090493, 100, External, Dispense_Reward, 0ml
+26.092338, 63, Internal, Trial_CR,
+26.094015, 20, Internal, Start_ITI, 0.111944
+26.217655, 21, Internal, End_ITI, 
+26.220075, 90, External, Play_Audio_Tone_CS+, 0 Hz
+26.221520, 95, Internal, Start_Trial, 
+26.222860, 91, Internal, Start_Trial_Delay_Window, 0
+26.230406, 93, Internal, End_Trial_Delay_Window, 
+26.241935, 92, Internal, Start_Trial_Reception_Window, 0
+26.261479, 94, Internal, End_Trial_Reception_Window, 
+26.263270, 96, Internal, End_Trial, 
+26.272450, 61, Internal, Trial_Miss,
+26.274044, 22, Internal, Start_Punish_ITI, 0.133815
+26.522582, 23, Internal, End_Punish_ITI, 
+26.524685, 91, External, Play_Audio_Tone_CS-, 0 Hz
+26.526056, 95, Internal, Start_Trial, 
+26.527228, 91, Internal, Start_Trial_Delay_Window, 0
+26.536019, 93, Internal, End_Trial_Delay_Window, 
+26.545959, 92, Internal, Start_Trial_Reception_Window, 0
+26.565358, 94, Internal, End_Trial_Reception_Window, 
+26.567584, 96, Internal, End_Trial, 
+26.577161, 100, External, Dispense_Reward, 0ml
+26.578357, 63, Internal, Trial_CR,
+26.579423, 20, Internal, Start_ITI, 0.128289
+26.722386, 21, Internal, End_ITI, 
+26.724417, 90, External, Play_Audio_Tone_CS+, 0 Hz
+26.725754, 95, Internal, Start_Trial, 
+26.727240, 91, Internal, Start_Trial_Delay_Window, 0
+26.736095, 93, Internal, End_Trial_Delay_Window, 
+26.747185, 92, Internal, Start_Trial_Reception_Window, 0
+26.766574, 94, Internal, End_Trial_Reception_Window, 
+26.768138, 96, Internal, End_Trial, 
+26.778160, 61, Internal, Trial_Miss,
+26.779518, 22, Internal, Start_Punish_ITI, 0.136542
+27.028202, 23, Internal, End_Punish_ITI, 
+27.030329, 91, External, Play_Audio_Tone_CS-, 0 Hz
+27.031464, 95, Internal, Start_Trial, 
+27.033096, 91, Internal, Start_Trial_Delay_Window, 0
+27.041056, 93, Internal, End_Trial_Delay_Window, 
+27.050585, 92, Internal, Start_Trial_Reception_Window, 0
+27.071367, 94, Internal, End_Trial_Reception_Window, 
+27.073115, 96, Internal, End_Trial, 
+27.082890, 100, External, Dispense_Reward, 0ml
+27.084564, 63, Internal, Trial_CR,
+27.085801, 20, Internal, Start_ITI, 0.128666
+27.230473, 21, Internal, End_ITI, 
+27.232876, 90, External, Play_Audio_Tone_CS+, 0 Hz
+27.234891, 95, Internal, Start_Trial, 
+27.236453, 91, Internal, Start_Trial_Delay_Window, 0
+27.245076, 93, Internal, End_Trial_Delay_Window, 
+27.254643, 92, Internal, Start_Trial_Reception_Window, 0
+27.276047, 94, Internal, End_Trial_Reception_Window, 
+27.278022, 96, Internal, End_Trial, 
+27.285994, 61, Internal, Trial_Miss,
+27.287294, 22, Internal, Start_Punish_ITI, 0.198008
+27.595478, 23, Internal, End_Punish_ITI, 
+27.597193, 91, External, Play_Audio_Tone_CS-, 0 Hz
+27.598469, 95, Internal, Start_Trial, 
+27.599791, 91, Internal, Start_Trial_Delay_Window, 0
+27.609511, 93, Internal, End_Trial_Delay_Window, 
+27.621002, 92, Internal, Start_Trial_Reception_Window, 0
+27.640389, 94, Internal, End_Trial_Reception_Window, 
+27.642319, 96, Internal, End_Trial, 
+27.652284, 63, Internal, Trial_CR,
+27.653750, 100, External, Dispense_Reward, 0ml
+27.655139, 20, Internal, Start_ITI, 0.121649
+27.790044, 21, Internal, End_ITI, 
+27.791818, 91, External, Play_Audio_Tone_CS-, 0 Hz
+27.793057, 95, Internal, Start_Trial, 
+27.794311, 91, Internal, Start_Trial_Delay_Window, 0
+27.803686, 93, Internal, End_Trial_Delay_Window, 
+27.815255, 92, Internal, Start_Trial_Reception_Window, 0
+27.834578, 94, Internal, End_Trial_Reception_Window, 
+27.836103, 96, Internal, End_Trial, 
+27.844779, 100, External, Dispense_Reward, 0ml
+27.845985, 63, Internal, Trial_CR,
+27.847187, 20, Internal, Start_ITI, 0.124387
+27.986272, 21, Internal, End_ITI, 
+27.988613, 91, External, Play_Audio_Tone_CS-, 0 Hz
+27.989739, 95, Internal, Start_Trial, 
+27.990945, 91, Internal, Start_Trial_Delay_Window, 0
+27.999634, 93, Internal, End_Trial_Delay_Window, 
+28.009401, 92, Internal, Start_Trial_Reception_Window, 0
+28.032131, 94, Internal, End_Trial_Reception_Window, 
+28.034121, 96, Internal, End_Trial, 
+28.041865, 100, External, Dispense_Reward, 0ml
+28.043444, 63, Internal, Trial_CR,
+28.044874, 20, Internal, Start_ITI, 0.163886
+28.222372, 21, Internal, End_ITI, 
+28.224765, 90, External, Play_Audio_Tone_CS+, 0 Hz
+28.226218, 95, Internal, Start_Trial, 
+28.227589, 91, Internal, Start_Trial_Delay_Window, 0
+28.236279, 93, Internal, End_Trial_Delay_Window, 
+28.246053, 92, Internal, Start_Trial_Reception_Window, 0
+28.267266, 94, Internal, End_Trial_Reception_Window, 
+28.268894, 96, Internal, End_Trial, 
+28.276975, 61, Internal, Trial_Miss,
+28.278292, 22, Internal, Start_Punish_ITI, 0.119558
+28.513641, 23, Internal, End_Punish_ITI, 
+28.515834, 90, External, Play_Audio_Tone_CS+, 0 Hz
+28.517093, 95, Internal, Start_Trial, 
+28.518499, 91, Internal, Start_Trial_Delay_Window, 0
+28.527170, 93, Internal, End_Trial_Delay_Window, 
+28.536774, 92, Internal, Start_Trial_Reception_Window, 0
+28.556990, 94, Internal, End_Trial_Reception_Window, 
+28.558495, 96, Internal, End_Trial, 
+28.567986, 61, Internal, Trial_Miss,
+28.569751, 22, Internal, Start_Punish_ITI, 0.119705
+28.803559, 23, Internal, End_Punish_ITI, 
+28.805458, 90, External, Play_Audio_Tone_CS+, 0 Hz
+28.806908, 95, Internal, Start_Trial, 
+28.808184, 91, Internal, Start_Trial_Delay_Window, 0
+28.817070, 93, Internal, End_Trial_Delay_Window, 
+28.827953, 92, Internal, Start_Trial_Reception_Window, 0
+28.849219, 94, Internal, End_Trial_Reception_Window, 
+28.850998, 96, Internal, End_Trial, 
+28.858881, 61, Internal, Trial_Miss,
+28.860105, 22, Internal, Start_Punish_ITI, 0.175712
+29.153212, 23, Internal, End_Punish_ITI, 
+29.155357, 91, External, Play_Audio_Tone_CS-, 0 Hz
+29.156973, 95, Internal, Start_Trial, 
+29.158358, 91, Internal, Start_Trial_Delay_Window, 0
+29.167455, 93, Internal, End_Trial_Delay_Window, 
+29.178658, 92, Internal, Start_Trial_Reception_Window, 0
+29.199968, 94, Internal, End_Trial_Reception_Window, 
+29.202098, 96, Internal, End_Trial, 
+29.209553, 100, External, Dispense_Reward, 0ml
+29.210791, 63, Internal, Trial_CR,
+29.212077, 20, Internal, Start_ITI, 0.124699
+29.285862, 50, Internal, Lick, ITI
+29.357087, 21, Internal, End_ITI, 
+29.359062, 90, External, Play_Audio_Tone_CS+, 0 Hz
+29.360933, 95, Internal, Start_Trial, 
+29.362328, 91, Internal, Start_Trial_Delay_Window, 0
+29.371076, 93, Internal, End_Trial_Delay_Window, 
+29.380652, 92, Internal, Start_Trial_Reception_Window, 0
+29.402050, 94, Internal, End_Trial_Reception_Window, 
+29.404643, 96, Internal, End_Trial, 
+29.412690, 61, Internal, Trial_Miss,
+29.414197, 22, Internal, Start_Punish_ITI, 0.105506
+29.641236, 23, Internal, End_Punish_ITI, 
+29.643436, 90, External, Play_Audio_Tone_CS+, 0 Hz
+29.645048, 95, Internal, Start_Trial, 
+29.646584, 91, Internal, Start_Trial_Delay_Window, 0
+29.655950, 93, Internal, End_Trial_Delay_Window, 
+29.665680, 92, Internal, Start_Trial_Reception_Window, 0
+29.686973, 94, Internal, End_Trial_Reception_Window, 
+29.689028, 96, Internal, End_Trial, 
+29.698747, 61, Internal, Trial_Miss,
+29.700511, 22, Internal, Start_Punish_ITI, 0.131559
+29.949016, 23, Internal, End_Punish_ITI, 
+29.951702, 91, External, Play_Audio_Tone_CS-, 0 Hz
+29.953781, 95, Internal, Start_Trial, 
+29.955422, 91, Internal, Start_Trial_Delay_Window, 0
+29.963694, 93, Internal, End_Trial_Delay_Window, 
+29.975248, 92, Internal, Start_Trial_Reception_Window, 0
+29.994640, 94, Internal, End_Trial_Reception_Window, 
+29.996599, 96, Internal, End_Trial, 
+30.005656, 100, External, Dispense_Reward, 0ml
+30.006820, 63, Internal, Trial_CR,
+30.008367, 20, Internal, Start_ITI, 0.189621
+30.216658, 21, Internal, End_ITI, 
+30.218650, 91, External, Play_Audio_Tone_CS-, 0 Hz
+30.219939, 95, Internal, Start_Trial, 
+30.221147, 91, Internal, Start_Trial_Delay_Window, 0
+30.230023, 93, Internal, End_Trial_Delay_Window, 
+30.241001, 92, Internal, Start_Trial_Reception_Window, 0
+30.260411, 94, Internal, End_Trial_Reception_Window, 
+30.261801, 96, Internal, End_Trial, 
+30.272002, 100, External, Dispense_Reward, 0ml
+30.273859, 63, Internal, Trial_CR,
+30.275614, 20, Internal, Start_ITI, 0.146036
+30.442033, 21, Internal, End_ITI, 
+30.443996, 90, External, Play_Audio_Tone_CS+, 0 Hz
+30.445472, 95, Internal, Start_Trial, 
+30.446955, 91, Internal, Start_Trial_Delay_Window, 0
+30.454767, 93, Internal, End_Trial_Delay_Window, 
+30.464428, 92, Internal, Start_Trial_Reception_Window, 0
+30.487112, 94, Internal, End_Trial_Reception_Window, 
+30.488666, 96, Internal, End_Trial, 
+30.496585, 61, Internal, Trial_Miss,
+30.497795, 22, Internal, Start_Punish_ITI, 0.141785
+30.756610, 23, Internal, End_Punish_ITI, 
+30.758998, 91, External, Play_Audio_Tone_CS-, 0 Hz
+30.760361, 95, Internal, Start_Trial, 
+30.762119, 91, Internal, Start_Trial_Delay_Window, 0
+30.770094, 93, Internal, End_Trial_Delay_Window, 
+30.779656, 92, Internal, Start_Trial_Reception_Window, 0
+30.800553, 94, Internal, End_Trial_Reception_Window, 
+30.802035, 96, Internal, End_Trial, 
+30.812194, 100, External, Dispense_Reward, 0ml
+30.813911, 63, Internal, Trial_CR,
+30.815633, 20, Internal, Start_ITI, 0.162511
+30.991057, 21, Internal, End_ITI, 
+30.993433, 91, External, Play_Audio_Tone_CS-, 0 Hz
+30.995035, 95, Internal, Start_Trial, 
+30.996651, 91, Internal, Start_Trial_Delay_Window, 0
+31.004536, 93, Internal, End_Trial_Delay_Window, 
+31.016163, 92, Internal, Start_Trial_Reception_Window, 0
+31.035873, 94, Internal, End_Trial_Reception_Window, 
+31.037632, 96, Internal, End_Trial, 
+31.045378, 100, External, Dispense_Reward, 0ml
+31.046785, 63, Internal, Trial_CR,
+31.048168, 20, Internal, Start_ITI, 0.173946
+31.210404, 50, Internal, Lick, ITI
+31.241892, 21, Internal, End_ITI, 
+31.244077, 90, External, Play_Audio_Tone_CS+, 0 Hz
+31.245877, 95, Internal, Start_Trial, 
+31.247459, 91, Internal, Start_Trial_Delay_Window, 0
+31.256382, 93, Internal, End_Trial_Delay_Window, 
+31.268033, 92, Internal, Start_Trial_Reception_Window, 0
+31.288792, 94, Internal, End_Trial_Reception_Window, 
+31.290337, 96, Internal, End_Trial, 
+31.298577, 61, Internal, Trial_Miss,
+31.299905, 22, Internal, Start_Punish_ITI, 0.149870
+31.568913, 23, Internal, End_Punish_ITI, 
+31.571133, 91, External, Play_Audio_Tone_CS-, 0 Hz
+31.572768, 95, Internal, Start_Trial, 
+31.574416, 91, Internal, Start_Trial_Delay_Window, 0
+31.583702, 93, Internal, End_Trial_Delay_Window, 
+31.593411, 92, Internal, Start_Trial_Reception_Window, 0
+31.614656, 94, Internal, End_Trial_Reception_Window, 
+31.616151, 96, Internal, End_Trial, 
+31.624342, 100, External, Dispense_Reward, 0ml
+31.625979, 63, Internal, Trial_CR,
+31.627667, 20, Internal, Start_ITI, 0.156967
+31.795458, 21, Internal, End_ITI, 
+31.797335, 90, External, Play_Audio_Tone_CS+, 0 Hz
+31.798982, 95, Internal, Start_Trial, 
+31.800514, 91, Internal, Start_Trial_Delay_Window, 0
+31.808206, 93, Internal, End_Trial_Delay_Window, 
+31.817884, 92, Internal, Start_Trial_Reception_Window, 0
+31.838520, 94, Internal, End_Trial_Reception_Window, 
+31.840101, 96, Internal, End_Trial, 
+31.849909, 61, Internal, Trial_Miss,
+31.851547, 22, Internal, Start_Punish_ITI, 0.185571
+32.151957, 23, Internal, End_Punish_ITI, 
+32.153967, 91, External, Play_Audio_Tone_CS-, 0 Hz
+32.155482, 95, Internal, Start_Trial, 
+32.157015, 91, Internal, Start_Trial_Delay_Window, 0
+32.166765, 93, Internal, End_Trial_Delay_Window, 
+32.176481, 92, Internal, Start_Trial_Reception_Window, 0
+32.197723, 94, Internal, End_Trial_Reception_Window, 
+32.199386, 96, Internal, End_Trial, 
+32.207519, 100, External, Dispense_Reward, 0ml
+32.208590, 63, Internal, Trial_CR,
+32.209695, 20, Internal, Start_ITI, 0.191224
+32.415496, 21, Internal, End_ITI, 
+32.417667, 91, External, Play_Audio_Tone_CS-, 0 Hz
+32.419134, 95, Internal, Start_Trial, 
+32.420637, 91, Internal, Start_Trial_Delay_Window, 0
+32.429099, 93, Internal, End_Trial_Delay_Window, 
+32.438842, 92, Internal, Start_Trial_Reception_Window, 0
+32.459648, 94, Internal, End_Trial_Reception_Window, 
+32.461316, 96, Internal, End_Trial, 
+32.471155, 100, External, Dispense_Reward, 0ml
+32.472580, 63, Internal, Trial_CR,
+32.474052, 20, Internal, Start_ITI, 0.119018
+32.607911, 21, Internal, End_ITI, 
+32.610251, 91, External, Play_Audio_Tone_CS-, 0 Hz
+32.611892, 95, Internal, Start_Trial, 
+32.613556, 91, Internal, Start_Trial_Delay_Window, 0
+32.622681, 93, Internal, End_Trial_Delay_Window, 
+32.634216, 92, Internal, Start_Trial_Reception_Window, 0
+32.653686, 94, Internal, End_Trial_Reception_Window, 
+32.655299, 96, Internal, End_Trial, 
+32.664668, 63, Internal, Trial_CR,
+32.666129, 100, External, Dispense_Reward, 0ml
+32.667469, 20, Internal, Start_ITI, 0.122072
+32.810918, 21, Internal, End_ITI, 
+32.813754, 90, External, Play_Audio_Tone_CS+, 0 Hz
+32.816065, 95, Internal, Start_Trial, 
+32.817776, 91, Internal, Start_Trial_Delay_Window, 0
+32.826796, 93, Internal, End_Trial_Delay_Window, 
+32.837379, 92, Internal, Start_Trial_Reception_Window, 0
+32.858684, 94, Internal, End_Trial_Reception_Window, 
+32.860645, 96, Internal, End_Trial, 
+32.869707, 61, Internal, Trial_Miss,
+32.871081, 22, Internal, Start_Punish_ITI, 0.166667
+32.985855, 50, Internal, Lick, ITI
+33.152721, 23, Internal, End_Punish_ITI, 
+33.155211, 91, External, Play_Audio_Tone_CS-, 0 Hz
+33.156857, 95, Internal, Start_Trial, 
+33.158127, 91, Internal, Start_Trial_Delay_Window, 0
+33.167225, 93, Internal, End_Trial_Delay_Window, 
+33.178320, 92, Internal, Start_Trial_Reception_Window, 0
+33.198923, 94, Internal, End_Trial_Reception_Window, 
+33.200515, 96, Internal, End_Trial, 
+33.210248, 100, External, Dispense_Reward, 0ml
+33.211561, 63, Internal, Trial_CR,
+33.213125, 20, Internal, Start_ITI, 0.166999
+33.398769, 21, Internal, End_ITI, 
+33.400881, 90, External, Play_Audio_Tone_CS+, 0 Hz
+33.402337, 95, Internal, Start_Trial, 
+33.403947, 91, Internal, Start_Trial_Delay_Window, 0
+33.412489, 93, Internal, End_Trial_Delay_Window, 
+33.423179, 92, Internal, Start_Trial_Reception_Window, 0
+33.442677, 94, Internal, End_Trial_Reception_Window, 
+33.444438, 96, Internal, End_Trial, 
+33.453622, 61, Internal, Trial_Miss,
+33.454949, 22, Internal, Start_Punish_ITI, 0.103382
+33.671214, 23, Internal, End_Punish_ITI, 
+33.673203, 91, External, Play_Audio_Tone_CS-, 0 Hz
+33.674680, 95, Internal, Start_Trial, 
+33.676130, 91, Internal, Start_Trial_Delay_Window, 0
+33.684320, 93, Internal, End_Trial_Delay_Window, 
+33.695656, 92, Internal, Start_Trial_Reception_Window, 0
+33.717051, 94, Internal, End_Trial_Reception_Window, 
+33.718635, 96, Internal, End_Trial, 
+33.727103, 100, External, Dispense_Reward, 0ml
+33.728686, 63, Internal, Trial_CR,
+33.730353, 20, Internal, Start_ITI, 0.102332
+33.842948, 21, Internal, End_ITI, 
+33.845164, 90, External, Play_Audio_Tone_CS+, 0 Hz
+33.847109, 95, Internal, Start_Trial, 
+33.848777, 91, Internal, Start_Trial_Delay_Window, 0
+33.857796, 93, Internal, End_Trial_Delay_Window, 
+33.867404, 92, Internal, Start_Trial_Reception_Window, 0
+33.890102, 94, Internal, End_Trial_Reception_Window, 
+33.892066, 96, Internal, End_Trial, 
+33.899742, 61, Internal, Trial_Miss,
+33.901276, 22, Internal, Start_Punish_ITI, 0.159719
+34.028498, 50, Internal, Lick, ITI
+34.175239, 23, Internal, End_Punish_ITI, 
+34.177063, 90, External, Play_Audio_Tone_CS+, 0 Hz
+34.178037, 95, Internal, Start_Trial, 
+34.179273, 51, Internal, Lick, Trial_Delay
+34.180776, 91, Internal, Start_Trial_Delay_Window, 0
+34.187390, 93, Internal, End_Trial_Delay_Window, 
+34.198494, 92, Internal, Start_Trial_Reception_Window, 0
+34.221279, 94, Internal, End_Trial_Reception_Window, 
+34.223069, 96, Internal, End_Trial, 
+34.230849, 61, Internal, Trial_Miss,
+34.232214, 22, Internal, Start_Punish_ITI, 0.141832
+34.492602, 23, Internal, End_Punish_ITI, 
+34.494698, 91, External, Play_Audio_Tone_CS-, 0 Hz
+34.496103, 95, Internal, Start_Trial, 
+34.497262, 91, Internal, Start_Trial_Delay_Window, 0
+34.506080, 93, Internal, End_Trial_Delay_Window, 
+34.516001, 92, Internal, Start_Trial_Reception_Window, 0
+34.535411, 94, Internal, End_Trial_Reception_Window, 
+34.536998, 96, Internal, End_Trial, 
+34.547085, 100, External, Dispense_Reward, 0ml
+34.548437, 63, Internal, Trial_CR,
+34.550251, 20, Internal, Start_ITI, 0.131787
+34.693976, 21, Internal, End_ITI, 
+34.695881, 90, External, Play_Audio_Tone_CS+, 0 Hz
+34.697415, 95, Internal, Start_Trial, 
+34.698792, 91, Internal, Start_Trial_Delay_Window, 0
+34.707236, 93, Internal, End_Trial_Delay_Window, 
+34.716913, 92, Internal, Start_Trial_Reception_Window, 0
+34.736737, 94, Internal, End_Trial_Reception_Window, 
+34.738809, 96, Internal, End_Trial, 
+34.746368, 61, Internal, Trial_Miss,
+34.747646, 22, Internal, Start_Punish_ITI, 0.111422
+34.975179, 23, Internal, End_Punish_ITI, 
+34.977125, 90, External, Play_Audio_Tone_CS+, 0 Hz
+34.978799, 95, Internal, Start_Trial, 
+34.980498, 91, Internal, Start_Trial_Delay_Window, 0
+34.989492, 93, Internal, End_Trial_Delay_Window, 
+35.001109, 92, Internal, Start_Trial_Reception_Window, 0
+35.020820, 94, Internal, End_Trial_Reception_Window, 
+35.022599, 96, Internal, End_Trial, 
+35.031818, 61, Internal, Trial_Miss,
+35.033515, 22, Internal, Start_Punish_ITI, 0.148320
+35.299345, 23, Internal, End_Punish_ITI, 
+35.301390, 91, External, Play_Audio_Tone_CS-, 0 Hz
+35.303160, 95, Internal, Start_Trial, 
+35.304812, 91, Internal, Start_Trial_Delay_Window, 0
+35.312852, 93, Internal, End_Trial_Delay_Window, 
+35.322692, 92, Internal, Start_Trial_Reception_Window, 0
+35.344125, 94, Internal, End_Trial_Reception_Window, 
+35.345560, 96, Internal, End_Trial, 
+35.353805, 100, External, Dispense_Reward, 0ml
+35.355480, 63, Internal, Trial_CR,
+35.356808, 20, Internal, Start_ITI, 0.185838
+35.556058, 21, Internal, End_ITI, 
+35.557821, 91, External, Play_Audio_Tone_CS-, 0 Hz
+35.558869, 95, Internal, Start_Trial, 
+35.560296, 91, Internal, Start_Trial_Delay_Window, 0
+35.568812, 93, Internal, End_Trial_Delay_Window, 
+35.578578, 92, Internal, Start_Trial_Reception_Window, 0
+35.599833, 94, Internal, End_Trial_Reception_Window, 
+35.601790, 96, Internal, End_Trial, 
+35.609537, 100, External, Dispense_Reward, 0ml
+35.610784, 63, Internal, Trial_CR,
+35.612162, 20, Internal, Start_ITI, 0.106522
+35.733649, 21, Internal, End_ITI, 
+35.735826, 90, External, Play_Audio_Tone_CS+, 0 Hz
+35.737759, 95, Internal, Start_Trial, 
+35.739318, 91, Internal, Start_Trial_Delay_Window, 0
+35.747606, 93, Internal, End_Trial_Delay_Window, 
+35.759285, 92, Internal, Start_Trial_Reception_Window, 0
+35.778786, 94, Internal, End_Trial_Reception_Window, 
+35.780453, 96, Internal, End_Trial, 
+35.788350, 61, Internal, Trial_Miss,
+35.789758, 22, Internal, Start_Punish_ITI, 0.152194
+36.061505, 23, Internal, End_Punish_ITI, 
+36.063703, 91, External, Play_Audio_Tone_CS-, 0 Hz
+36.065111, 95, Internal, Start_Trial, 
+36.066626, 91, Internal, Start_Trial_Delay_Window, 0
+36.075204, 93, Internal, End_Trial_Delay_Window, 
+36.085412, 92, Internal, Start_Trial_Reception_Window, 0
+36.106620, 94, Internal, End_Trial_Reception_Window, 
+36.108101, 96, Internal, End_Trial, 
+36.117590, 63, Internal, Trial_CR,
+36.119001, 100, External, Dispense_Reward, 0ml
+36.120650, 20, Internal, Start_ITI, 0.153284
+36.288465, 21, Internal, End_ITI, 
+36.290124, 90, External, Play_Audio_Tone_CS+, 0 Hz
+36.291412, 95, Internal, Start_Trial, 
+36.292810, 91, Internal, Start_Trial_Delay_Window, 0
+36.302280, 93, Internal, End_Trial_Delay_Window, 
+36.311932, 92, Internal, Start_Trial_Reception_Window, 0
+36.331493, 94, Internal, End_Trial_Reception_Window, 
+36.333439, 96, Internal, End_Trial, 
+36.343157, 61, Internal, Trial_Miss,
+36.344715, 22, Internal, Start_Punish_ITI, 0.135009
+36.596677, 23, Internal, End_Punish_ITI, 
+36.598257, 91, External, Play_Audio_Tone_CS-, 0 Hz
+36.599451, 95, Internal, Start_Trial, 
+36.600427, 91, Internal, Start_Trial_Delay_Window, 0
+36.608860, 93, Internal, End_Trial_Delay_Window, 
+36.620253, 92, Internal, Start_Trial_Reception_Window, 0
+36.640089, 94, Internal, End_Trial_Reception_Window, 
+36.642212, 96, Internal, End_Trial, 
+36.649382, 100, External, Dispense_Reward, 0ml
+36.650566, 63, Internal, Trial_CR,
+36.651782, 20, Internal, Start_ITI, 0.116130
+36.789146, 21, Internal, End_ITI, 
+36.791162, 90, External, Play_Audio_Tone_CS+, 0 Hz
+36.792558, 95, Internal, Start_Trial, 
+36.794004, 91, Internal, Start_Trial_Delay_Window, 0
+36.802206, 93, Internal, End_Trial_Delay_Window, 
+36.811987, 92, Internal, Start_Trial_Reception_Window, 0
+36.833131, 94, Internal, End_Trial_Reception_Window, 
+36.835408, 96, Internal, End_Trial, 
+36.844064, 61, Internal, Trial_Miss,
+36.845621, 22, Internal, Start_Punish_ITI, 0.153189
+37.113461, 23, Internal, End_Punish_ITI, 
+37.115665, 90, External, Play_Audio_Tone_CS+, 0 Hz
+37.117202, 95, Internal, Start_Trial, 
+37.119237, 91, Internal, Start_Trial_Delay_Window, 0
+37.128233, 93, Internal, End_Trial_Delay_Window, 
+37.138740, 92, Internal, Start_Trial_Reception_Window, 0
+37.159579, 94, Internal, End_Trial_Reception_Window, 
+37.161287, 96, Internal, End_Trial, 
+37.171253, 61, Internal, Trial_Miss,
+37.172748, 22, Internal, Start_Punish_ITI, 0.135136
+37.421831, 23, Internal, End_Punish_ITI, 
+37.423665, 91, External, Play_Audio_Tone_CS-, 0 Hz
+37.424866, 95, Internal, Start_Trial, 
+37.425916, 91, Internal, Start_Trial_Delay_Window, 0
+37.434808, 93, Internal, End_Trial_Delay_Window, 
+37.445711, 92, Internal, Start_Trial_Reception_Window, 0
+37.467074, 94, Internal, End_Trial_Reception_Window, 
+37.469148, 96, Internal, End_Trial, 
+37.476861, 100, External, Dispense_Reward, 0ml
+37.478303, 63, Internal, Trial_CR,
+37.479749, 20, Internal, Start_ITI, 0.107408
+37.603891, 21, Internal, End_ITI, 
+37.606248, 91, External, Play_Audio_Tone_CS-, 0 Hz
+37.608059, 95, Internal, Start_Trial, 
+37.609713, 91, Internal, Start_Trial_Delay_Window, 0
+37.619184, 93, Internal, End_Trial_Delay_Window, 
+37.628959, 92, Internal, Start_Trial_Reception_Window, 0
+37.648402, 94, Internal, End_Trial_Reception_Window, 
+37.649931, 96, Internal, End_Trial, 
+37.659477, 100, External, Dispense_Reward, 0ml
+37.660774, 63, Internal, Trial_CR,
+37.662391, 20, Internal, Start_ITI, 0.192502
+37.866479, 21, Internal, End_ITI, 
+37.868464, 90, External, Play_Audio_Tone_CS+, 0 Hz
+37.869980, 95, Internal, Start_Trial, 
+37.871423, 91, Internal, Start_Trial_Delay_Window, 0
+37.880987, 93, Internal, End_Trial_Delay_Window, 
+37.890550, 92, Internal, Start_Trial_Reception_Window, 0
+37.911406, 94, Internal, End_Trial_Reception_Window, 
+37.912922, 96, Internal, End_Trial, 
+37.923105, 61, Internal, Trial_Miss,
+37.924474, 22, Internal, Start_Punish_ITI, 0.144427
+38.183651, 23, Internal, End_Punish_ITI, 
+38.185580, 90, External, Play_Audio_Tone_CS+, 0 Hz
+38.186997, 95, Internal, Start_Trial, 
+38.188395, 91, Internal, Start_Trial_Delay_Window, 0
+38.196564, 93, Internal, End_Trial_Delay_Window, 
+38.208153, 92, Internal, Start_Trial_Reception_Window, 0
+38.227430, 94, Internal, End_Trial_Reception_Window, 
+38.229388, 96, Internal, End_Trial, 
+38.238513, 61, Internal, Trial_Miss,
+38.239967, 22, Internal, Start_Punish_ITI, 0.153992
+38.507880, 23, Internal, End_Punish_ITI, 
+38.509430, 90, External, Play_Audio_Tone_CS+, 0 Hz
+38.510519, 95, Internal, Start_Trial, 
+38.511720, 91, Internal, Start_Trial_Delay_Window, 0
+38.519674, 93, Internal, End_Trial_Delay_Window, 
+38.529332, 92, Internal, Start_Trial_Reception_Window, 0
+38.549997, 94, Internal, End_Trial_Reception_Window, 
+38.551823, 96, Internal, End_Trial, 
+38.559593, 61, Internal, Trial_Miss,
+38.560855, 22, Internal, Start_Punish_ITI, 0.177882
+38.581919, 50, Internal, Lick, ITI
+38.851561, 23, Internal, End_Punish_ITI, 
+38.853728, 91, External, Play_Audio_Tone_CS-, 0 Hz
+38.855212, 95, Internal, Start_Trial, 
+38.856667, 91, Internal, Start_Trial_Delay_Window, 0
+38.865153, 93, Internal, End_Trial_Delay_Window, 
+38.874909, 92, Internal, Start_Trial_Reception_Window, 0
+38.895733, 94, Internal, End_Trial_Reception_Window, 
+38.897536, 96, Internal, End_Trial, 
+38.907145, 100, External, Dispense_Reward, 0ml
+38.908473, 63, Internal, Trial_CR,
+38.909858, 20, Internal, Start_ITI, 0.103500
+39.032339, 21, Internal, End_ITI, 
+39.034445, 90, External, Play_Audio_Tone_CS+, 0 Hz
+39.035662, 95, Internal, Start_Trial, 
+39.037054, 91, Internal, Start_Trial_Delay_Window, 0
+39.045437, 93, Internal, End_Trial_Delay_Window, 
+39.056638, 92, Internal, Start_Trial_Reception_Window, 0
+39.078250, 94, Internal, End_Trial_Reception_Window, 
+39.080062, 96, Internal, End_Trial, 
+39.088137, 61, Internal, Trial_Miss,
+39.089853, 22, Internal, Start_Punish_ITI, 0.189711
+39.393448, 23, Internal, End_Punish_ITI, 
+39.395908, 91, External, Play_Audio_Tone_CS-, 0 Hz
+39.397659, 95, Internal, Start_Trial, 
+39.399240, 91, Internal, Start_Trial_Delay_Window, 0
+39.407372, 93, Internal, End_Trial_Delay_Window, 
+39.418944, 92, Internal, Start_Trial_Reception_Window, 0
+39.439715, 94, Internal, End_Trial_Reception_Window, 
+39.441132, 96, Internal, End_Trial, 
+39.451173, 100, External, Dispense_Reward, 0ml
+39.452484, 63, Internal, Trial_CR,
+39.453722, 20, Internal, Start_ITI, 0.104683
+39.574985, 21, Internal, End_ITI, 
+39.576888, 91, External, Play_Audio_Tone_CS-, 0 Hz
+39.578309, 95, Internal, Start_Trial, 
+39.579785, 91, Internal, Start_Trial_Delay_Window, 0
+39.588043, 93, Internal, End_Trial_Delay_Window, 
+39.597798, 92, Internal, Start_Trial_Reception_Window, 0
+39.619128, 94, Internal, End_Trial_Reception_Window, 
+39.620584, 96, Internal, End_Trial, 
+39.628707, 100, External, Dispense_Reward, 0ml
+39.630208, 63, Internal, Trial_CR,
+39.631899, 20, Internal, Start_ITI, 0.171720
+39.733397, 50, Internal, Lick, ITI
+39.814661, 21, Internal, End_ITI, 
+39.816820, 90, External, Play_Audio_Tone_CS+, 0 Hz
+39.818300, 95, Internal, Start_Trial, 
+39.819911, 91, Internal, Start_Trial_Delay_Window, 0
+39.827421, 93, Internal, End_Trial_Delay_Window, 
+39.839069, 92, Internal, Start_Trial_Reception_Window, 0
+39.861221, 94, Internal, End_Trial_Reception_Window, 
+39.862646, 96, Internal, End_Trial, 
+39.872255, 61, Internal, Trial_Miss,
+39.873949, 22, Internal, Start_Punish_ITI, 0.152687
+40.144543, 23, Internal, End_Punish_ITI, 
+40.146942, 90, External, Play_Audio_Tone_CS+, 0 Hz
+40.148483, 95, Internal, Start_Trial, 
+40.150219, 91, Internal, Start_Trial_Delay_Window, 0
+40.160048, 93, Internal, End_Trial_Delay_Window, 
+40.171048, 92, Internal, Start_Trial_Reception_Window, 0
+40.190466, 94, Internal, End_Trial_Reception_Window, 
+40.192304, 96, Internal, End_Trial, 
+40.201363, 61, Internal, Trial_Miss,
+40.202988, 22, Internal, Start_Punish_ITI, 0.182148
+40.503728, 23, Internal, End_Punish_ITI, 
+40.505491, 90, External, Play_Audio_Tone_CS+, 0 Hz
+40.506818, 95, Internal, Start_Trial, 
+40.508061, 91, Internal, Start_Trial_Delay_Window, 0
+40.517309, 93, Internal, End_Trial_Delay_Window, 
+40.526380, 92, Internal, Start_Trial_Reception_Window, 0
+40.547627, 94, Internal, End_Trial_Reception_Window, 
+40.549220, 96, Internal, End_Trial, 
+40.557514, 61, Internal, Trial_Miss,
+40.559065, 22, Internal, Start_Punish_ITI, 0.198301
+40.623173, 50, Internal, Lick, ITI
+40.868088, 23, Internal, End_Punish_ITI, 
+40.869838, 91, External, Play_Audio_Tone_CS-, 0 Hz
+40.871456, 95, Internal, Start_Trial, 
+40.872966, 91, Internal, Start_Trial_Delay_Window, 0
+40.881551, 93, Internal, End_Trial_Delay_Window, 
+40.892604, 92, Internal, Start_Trial_Reception_Window, 0
+40.913166, 94, Internal, End_Trial_Reception_Window, 
+40.914993, 96, Internal, End_Trial, 
+40.923012, 100, External, Dispense_Reward, 0ml
+40.924407, 63, Internal, Trial_CR,
+40.925847, 20, Internal, Start_ITI, 0.193224
+40.927330, 50, Internal, Lick, ITI
+41.134850, 21, Internal, End_ITI, 
+41.136905, 91, External, Play_Audio_Tone_CS-, 0 Hz
+41.138586, 95, Internal, Start_Trial, 
+41.140029, 91, Internal, Start_Trial_Delay_Window, 0
+41.149410, 93, Internal, End_Trial_Delay_Window, 
+41.160173, 92, Internal, Start_Trial_Reception_Window, 0
+41.179504, 94, Internal, End_Trial_Reception_Window, 
+41.180879, 96, Internal, End_Trial, 
+41.190464, 100, External, Dispense_Reward, 0ml
+41.191764, 63, Internal, Trial_CR,
+41.193133, 20, Internal, Start_ITI, 0.152689
+41.358288, 21, Internal, End_ITI, 
+41.360346, 91, External, Play_Audio_Tone_CS-, 0 Hz
+41.361740, 95, Internal, Start_Trial, 
+41.363199, 91, Internal, Start_Trial_Delay_Window, 0
+41.371047, 93, Internal, End_Trial_Delay_Window, 
+41.380721, 92, Internal, Start_Trial_Reception_Window, 0
+41.402079, 94, Internal, End_Trial_Reception_Window, 
+41.403694, 96, Internal, End_Trial, 
+41.412052, 100, External, Dispense_Reward, 0ml
+41.413595, 63, Internal, Trial_CR,
+41.414987, 20, Internal, Start_ITI, 0.101431
+41.530066, 21, Internal, End_ITI, 
+41.532050, 90, External, Play_Audio_Tone_CS+, 0 Hz
+41.533711, 95, Internal, Start_Trial, 
+41.535151, 91, Internal, Start_Trial_Delay_Window, 0
+41.542347, 93, Internal, End_Trial_Delay_Window, 
+41.553815, 92, Internal, Start_Trial_Reception_Window, 0
+41.575187, 94, Internal, End_Trial_Reception_Window, 
+41.576816, 96, Internal, End_Trial, 
+41.584673, 61, Internal, Trial_Miss,
+41.585984, 22, Internal, Start_Punish_ITI, 0.117897
+41.816069, 23, Internal, End_Punish_ITI, 
+41.818383, 90, External, Play_Audio_Tone_CS+, 0 Hz
+41.820149, 95, Internal, Start_Trial, 
+41.821759, 91, Internal, Start_Trial_Delay_Window, 0
+41.829935, 93, Internal, End_Trial_Delay_Window, 
+41.839802, 92, Internal, Start_Trial_Reception_Window, 0
+41.859451, 94, Internal, End_Trial_Reception_Window, 
+41.861140, 96, Internal, End_Trial, 
+41.870859, 61, Internal, Trial_Miss,
+41.872834, 22, Internal, Start_Punish_ITI, 0.136141
+42.036497, 50, Internal, Lick, ITI
+42.120765, 23, Internal, End_Punish_ITI, 
+42.122758, 91, External, Play_Audio_Tone_CS-, 0 Hz
+42.124033, 95, Internal, Start_Trial, 
+42.125473, 91, Internal, Start_Trial_Delay_Window, 0
+42.133732, 93, Internal, End_Trial_Delay_Window, 
+42.143379, 92, Internal, Start_Trial_Reception_Window, 0
+42.163844, 94, Internal, End_Trial_Reception_Window, 
+42.165211, 96, Internal, End_Trial, 
+42.173596, 100, External, Dispense_Reward, 0ml
+42.174810, 63, Internal, Trial_CR,
+42.176134, 20, Internal, Start_ITI, 0.177011
+42.292827, 50, Internal, Lick, ITI
+42.373647, 21, Internal, End_ITI, 
+42.375430, 90, External, Play_Audio_Tone_CS+, 0 Hz
+42.376917, 95, Internal, Start_Trial, 
+42.378673, 91, Internal, Start_Trial_Delay_Window, 0
+42.386799, 93, Internal, End_Trial_Delay_Window, 
+42.396818, 92, Internal, Start_Trial_Reception_Window, 0
+42.418954, 94, Internal, End_Trial_Reception_Window, 
+42.420418, 96, Internal, End_Trial, 
+42.428819, 61, Internal, Trial_Miss,
+42.430007, 22, Internal, Start_Punish_ITI, 0.180355
+42.720456, 23, Internal, End_Punish_ITI, 
+42.722525, 91, External, Play_Audio_Tone_CS-, 0 Hz
+42.724359, 95, Internal, Start_Trial, 
+42.725896, 91, Internal, Start_Trial_Delay_Window, 0
+42.734173, 93, Internal, End_Trial_Delay_Window, 
+42.743861, 92, Internal, Start_Trial_Reception_Window, 0
+42.763841, 94, Internal, End_Trial_Reception_Window, 
+42.765453, 96, Internal, End_Trial, 
+42.775369, 100, External, Dispense_Reward, 0ml
+42.776917, 63, Internal, Trial_CR,
+42.778502, 20, Internal, Start_ITI, 0.102940
+42.901117, 21, Internal, End_ITI, 
+42.902757, 90, External, Play_Audio_Tone_CS+, 0 Hz
+42.904181, 95, Internal, Start_Trial, 
+42.905595, 91, Internal, Start_Trial_Delay_Window, 0
+42.914100, 93, Internal, End_Trial_Delay_Window, 
+42.923896, 92, Internal, Start_Trial_Reception_Window, 0
+42.946312, 94, Internal, End_Trial_Reception_Window, 
+42.948567, 96, Internal, End_Trial, 
+42.956709, 61, Internal, Trial_Miss,
+42.957910, 22, Internal, Start_Punish_ITI, 0.195431
+43.271376, 23, Internal, End_Punish_ITI, 
+43.280378, 91, External, Play_Audio_Tone_CS-, 0 Hz
+43.281740, 95, Internal, Start_Trial, 
+43.282954, 91, Internal, Start_Trial_Delay_Window, 0
+43.291101, 93, Internal, End_Trial_Delay_Window, 
+43.300472, 92, Internal, Start_Trial_Reception_Window, 0
+43.322774, 94, Internal, End_Trial_Reception_Window, 
+43.325393, 96, Internal, End_Trial, 
+43.333882, 100, External, Dispense_Reward, 0ml
+43.335335, 63, Internal, Trial_CR,
+43.337200, 20, Internal, Start_ITI, 0.160420
+43.509698, 21, Internal, End_ITI, 
+43.513582, 91, External, Play_Audio_Tone_CS-, 0 Hz
+43.514990, 95, Internal, Start_Trial, 
+43.516954, 91, Internal, Start_Trial_Delay_Window, 0
+43.526197, 93, Internal, End_Trial_Delay_Window, 
+43.535826, 92, Internal, Start_Trial_Reception_Window, 0
+43.556544, 94, Internal, End_Trial_Reception_Window, 
+43.558724, 96, Internal, End_Trial, 
+43.566336, 100, External, Dispense_Reward, 0ml
+43.567688, 63, Internal, Trial_CR,
+43.569035, 20, Internal, Start_ITI, 0.174372
+43.755653, 21, Internal, End_ITI, 
+43.759103, 90, External, Play_Audio_Tone_CS+, 0 Hz
+43.760543, 95, Internal, Start_Trial, 
+43.761819, 91, Internal, Start_Trial_Delay_Window, 0
+43.769582, 93, Internal, End_Trial_Delay_Window, 
+43.780964, 92, Internal, Start_Trial_Reception_Window, 0
+43.801596, 94, Internal, End_Trial_Reception_Window, 
+43.804059, 96, Internal, End_Trial, 
+43.813192, 61, Internal, Trial_Miss,
+43.814398, 22, Internal, Start_Punish_ITI, 0.101195
+44.034957, 23, Internal, End_Punish_ITI, 
+44.037290, 90, External, Play_Audio_Tone_CS+, 0 Hz
+44.039002, 95, Internal, Start_Trial, 
+44.040491, 91, Internal, Start_Trial_Delay_Window, 0
+44.048458, 93, Internal, End_Trial_Delay_Window, 
+44.060200, 92, Internal, Start_Trial_Reception_Window, 0
+44.080969, 94, Internal, End_Trial_Reception_Window, 
+44.082933, 96, Internal, End_Trial, 
+44.090630, 61, Internal, Trial_Miss,
+44.092227, 22, Internal, Start_Punish_ITI, 0.148844
+44.133413, 50, Internal, Lick, ITI
+44.352430, 23, Internal, End_Punish_ITI, 
+44.354537, 91, External, Play_Audio_Tone_CS-, 0 Hz
+44.355992, 95, Internal, Start_Trial, 
+44.357570, 91, Internal, Start_Trial_Delay_Window, 0
+44.366011, 93, Internal, End_Trial_Delay_Window, 
+44.375734, 92, Internal, Start_Trial_Reception_Window, 0
+44.397823, 94, Internal, End_Trial_Reception_Window, 
+44.399965, 96, Internal, End_Trial, 
+44.406903, 100, External, Dispense_Reward, 0ml
+44.407804, 63, Internal, Trial_CR,
+44.408535, 20, Internal, Start_ITI, 0.164225
+44.585396, 21, Internal, End_ITI, 
+44.587091, 90, External, Play_Audio_Tone_CS+, 0 Hz
+44.588470, 95, Internal, Start_Trial, 
+44.589764, 91, Internal, Start_Trial_Delay_Window, 0
+44.597463, 93, Internal, End_Trial_Delay_Window, 
+44.609009, 92, Internal, Start_Trial_Reception_Window, 0
+44.629702, 94, Internal, End_Trial_Reception_Window, 
+44.631160, 96, Internal, End_Trial, 
+44.639413, 61, Internal, Trial_Miss,
+44.640762, 22, Internal, Start_Punish_ITI, 0.166967
+44.921679, 23, Internal, End_Punish_ITI, 
+44.924218, 91, External, Play_Audio_Tone_CS-, 0 Hz
+44.925913, 95, Internal, Start_Trial, 
+44.927686, 91, Internal, Start_Trial_Delay_Window, 0
+44.936165, 93, Internal, End_Trial_Delay_Window, 
+44.946104, 92, Internal, Start_Trial_Reception_Window, 0
+44.965537, 94, Internal, End_Trial_Reception_Window, 
+44.966874, 96, Internal, End_Trial, 
+44.976214, 100, External, Dispense_Reward, 0ml
+44.977479, 63, Internal, Trial_CR,
+44.978944, 20, Internal, Start_ITI, 0.157647
+45.062180, 50, Internal, Lick, ITI
+45.124535, 50, Internal, Lick, ITI
+45.155954, 21, Internal, End_ITI, 
+45.157580, 90, External, Play_Audio_Tone_CS+, 0 Hz
+45.158995, 95, Internal, Start_Trial, 
+45.160375, 91, Internal, Start_Trial_Delay_Window, 0
+45.169370, 93, Internal, End_Trial_Delay_Window, 
+45.180308, 92, Internal, Start_Trial_Reception_Window, 0
+45.201047, 94, Internal, End_Trial_Reception_Window, 
+45.202828, 96, Internal, End_Trial, 
+45.210380, 61, Internal, Trial_Miss,
+45.212012, 22, Internal, Start_Punish_ITI, 0.131340
+45.336616, 50, Internal, Lick, ITI
+45.461631, 23, Internal, End_Punish_ITI, 
+45.463489, 91, External, Play_Audio_Tone_CS-, 0 Hz
+45.464902, 95, Internal, Start_Trial, 
+45.466578, 91, Internal, Start_Trial_Delay_Window, 0
+45.474492, 93, Internal, End_Trial_Delay_Window, 
+45.484855, 92, Internal, Start_Trial_Reception_Window, 0
+45.505612, 94, Internal, End_Trial_Reception_Window, 
+45.507167, 96, Internal, End_Trial, 
+45.517166, 100, External, Dispense_Reward, 0ml
+45.518481, 63, Internal, Trial_CR,
+45.519703, 20, Internal, Start_ITI, 0.150951
+45.687190, 21, Internal, End_ITI, 
+45.689389, 90, External, Play_Audio_Tone_CS+, 0 Hz
+45.690798, 95, Internal, Start_Trial, 
+45.692296, 91, Internal, Start_Trial_Delay_Window, 0
+45.700040, 93, Internal, End_Trial_Delay_Window, 
+45.709553, 92, Internal, Start_Trial_Reception_Window, 0
+45.732281, 94, Internal, End_Trial_Reception_Window, 
+45.733732, 96, Internal, End_Trial, 
+45.742003, 61, Internal, Trial_Miss,
+45.743450, 22, Internal, Start_Punish_ITI, 0.115936
+45.980261, 23, Internal, End_Punish_ITI, 
+45.982394, 91, External, Play_Audio_Tone_CS-, 0 Hz
+45.984667, 95, Internal, Start_Trial, 
+45.987302, 91, Internal, Start_Trial_Delay_Window, 0
+45.994711, 93, Internal, End_Trial_Delay_Window, 
+46.004415, 92, Internal, Start_Trial_Reception_Window, 0
+46.025873, 94, Internal, End_Trial_Reception_Window, 
+46.027725, 96, Internal, End_Trial, 
+46.036874, 63, Internal, Trial_CR,
+46.038602, 100, External, Dispense_Reward, 0ml
+46.040350, 20, Internal, Start_ITI, 0.189362
+46.248791, 21, Internal, End_ITI, 
+46.250606, 91, External, Play_Audio_Tone_CS-, 0 Hz
+46.252341, 95, Internal, Start_Trial, 
+46.254100, 91, Internal, Start_Trial_Delay_Window, 0
+46.262075, 93, Internal, End_Trial_Delay_Window, 
+46.273195, 92, Internal, Start_Trial_Reception_Window, 0
+46.292632, 94, Internal, End_Trial_Reception_Window, 
+46.294400, 96, Internal, End_Trial, 
+46.302470, 100, External, Dispense_Reward, 0ml
+46.303739, 63, Internal, Trial_CR,
+46.305098, 20, Internal, Start_ITI, 0.149304
+46.469257, 21, Internal, End_ITI, 
+46.471711, 90, External, Play_Audio_Tone_CS+, 0 Hz
+46.473166, 95, Internal, Start_Trial, 
+46.474663, 91, Internal, Start_Trial_Delay_Window, 0
+46.483826, 93, Internal, End_Trial_Delay_Window, 
+46.494926, 92, Internal, Start_Trial_Reception_Window, 0
+46.516134, 94, Internal, End_Trial_Reception_Window, 
+46.517661, 96, Internal, End_Trial, 
+46.525828, 61, Internal, Trial_Miss,
+46.527459, 22, Internal, Start_Punish_ITI, 0.160762
+46.805125, 23, Internal, End_Punish_ITI, 
+46.807182, 91, External, Play_Audio_Tone_CS-, 0 Hz
+46.808465, 95, Internal, Start_Trial, 
+46.809634, 91, Internal, Start_Trial_Delay_Window, 0
+46.818106, 93, Internal, End_Trial_Delay_Window, 
+46.827894, 92, Internal, Start_Trial_Reception_Window, 0
+46.847367, 94, Internal, End_Trial_Reception_Window, 
+46.848914, 96, Internal, End_Trial, 
+46.859028, 100, External, Dispense_Reward, 0ml
+46.860271, 63, Internal, Trial_CR,
+46.861533, 20, Internal, Start_ITI, 0.107776
+46.985086, 21, Internal, End_ITI, 
+46.987436, 90, External, Play_Audio_Tone_CS+, 0 Hz
+46.989153, 95, Internal, Start_Trial, 
+46.990661, 91, Internal, Start_Trial_Delay_Window, 0
+46.999550, 93, Internal, End_Trial_Delay_Window, 
+47.011188, 92, Internal, Start_Trial_Reception_Window, 0
+47.031799, 94, Internal, End_Trial_Reception_Window, 
+47.033230, 96, Internal, End_Trial, 
+47.041446, 61, Internal, Trial_Miss,
+47.042766, 22, Internal, Start_Punish_ITI, 0.196832
+47.353193, 23, Internal, End_Punish_ITI, 
+47.354757, 90, External, Play_Audio_Tone_CS+, 0 Hz
+47.355744, 95, Internal, Start_Trial, 
+47.357047, 91, Internal, Start_Trial_Delay_Window, 0
+47.366575, 93, Internal, End_Trial_Delay_Window, 
+47.376338, 92, Internal, Start_Trial_Reception_Window, 0
+47.398155, 94, Internal, End_Trial_Reception_Window, 
+47.399655, 96, Internal, End_Trial, 
+47.407994, 61, Internal, Trial_Miss,
+47.409916, 22, Internal, Start_Punish_ITI, 0.164765
+47.692008, 23, Internal, End_Punish_ITI, 
+47.694054, 110, External, End_Session_Trials_Finished, 
+-1, 120, External, End_Session_Accuracy, 0.502857
+-1, 121, External, End_Session_Number_Hits, 1
+-1, 122, External, End_Session_Number_Miss, 86
+-1, 123, External, End_Session_Number_FA, 1
+-1, 124, External, End_Session_Number_CR, 87
+-1, 125, External, End_Session_Number_Licks, 45
+-1, 126, External, End_Session_Reward_Dispensed_ml, 0
