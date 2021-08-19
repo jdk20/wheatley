@@ -17,8 +17,12 @@ numIdx = cellfun(@(x) ~isnan(str2double(x)), data);
 data(numIdx) = cellfun(@(x) {str2double(x)}, data(numIdx));
 clear opts
 
-% 95: Start_Trial
-% 96: End_Trial
+% 90: CS+
+% 91: CS-
+% 95: Start_CS+_Trial
+% 96: Start_CS-_Trial
+% 97: End_CS+_Trial
+% 98: End_CS-_Trial
 % 20: Start_ITI
 % 21: End_ITI
 % 22: Start_Punish_ITI
@@ -31,7 +35,7 @@ i0 = find(cell2mat(data(:,2)) == 95);
 i1 = find(cell2mat(data(:,2)) == 96);
 
 box off; hold on;
-plot(cell2mat(data(i0,1)),ones(1,length(cell2mat(data(i0,1)))),'k.');
+% plot(cell2mat(data(i0,1)),ones(1,length(cell2mat(data(i0,1)))),'k.');
 for i = 1:length(i0)
     line([cell2mat(data(i0(i),1)) cell2mat(data(i1(i),1))],[1 1]);
 end
