@@ -1,8 +1,27 @@
 clc; clear variables; close all;
 
-% Import data.csv
+% Import info from data.csv
 opts = delimitedTextImportOptions("NumVariables", 5);
-opts.DataLines = [24, Inf];
+opts.DataLines = [1, 23];
+opts.Delimiter = ",";
+opts.VariableNames = ["Time", "ID", "Var3", "Var4", "Var5"];
+opts.SelectedVariableNames = ["Time", "ID"];
+opts.VariableTypes = ["char", "char", "string", "string", "string"];
+opts.ExtraColumnsRule = "ignore";
+opts.EmptyLineRule = "read";
+opts = setvaropts(opts, ["Time", "ID", "Var3", "Var4", "Var5"], "WhitespaceRule", "preserve");
+opts = setvaropts(opts, ["Time", "ID", "Var3", "Var4", "Var5"], "EmptyFieldRule", "auto");
+info = readtable("/home/jdk20/git/wheatley/0000-00-00-00-00-00/data.txt", opts);
+info = table2cell(info);
+numIdx = cellfun(@(x) ~isnan(str2double(x)), info);
+info(numIdx) = cellfun(@(x) {str2double(x)}, info(numIdx));
+clear opts
+
+info
+
+% Import main data from data.csv
+opts = delimitedTextImportOptions("NumVariables", 5);
+opts.DataLines = [28, Inf];
 opts.Delimiter = ",";
 opts.VariableNames = ["Time", "ID", "Type", "Name", "Value"];
 opts.VariableTypes = ["double", "double", "char", "char", "char"];
@@ -29,11 +48,16 @@ clear opts
 % 23: End_Punish_ITI
 % 50: Lick, ITI
 % 51: Lick, Delay
-% 53: Lick, Reception
+% 52: Lick, Reception
 % 60: Trial Hit
 % 61: Trial Miss
 % 62: Trial FA
 % 63: Trial CR
+
+
+
+
+return
 
 i0 = find(cell2mat(data(:,2)) == 95); % Start_CS+_Trial
 i1 = find(cell2mat(data(:,2)) == 97); % End_CS+_Trial

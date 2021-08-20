@@ -3,51 +3,56 @@ clc; clear variables; close all;
 
 rng(42);
 
-n_sequences = 100;
+n_sequences = 1000;
 
-n = 175; % number of trials 
-k = 500; % maximum number of consecutive trials
+% n = 50; % number of trials 
+% k = 3; % maximum number of consecutive trials
 m = 2; % trial types, starting at 0. t = 2 for binary trials
 mp = [1, 1]; % relative proportions of each trial type
 
-m_trials = NaN(n, n_sequences);
-m_mae = NaN(n_sequences, 1);
-m_cm = NaN(m, m, n_sequences);
-for i = 1:n_sequences
-    disp(['Sequence ', num2str(i)]);
-    [trials, cm, mae] = generate_trials(n, k, m, mp);
-    disp(' ');
-    m_trials(:, i) = trials;
-    m_mae(i) = mae;
-    m_cm(:,:,i) = cm;
-end
+for n = [10 50 100 175 200 500]
+    for k = [3 5 1000]
+        [n k]
+        m_trials = NaN(n, n_sequences);
+        m_mae = NaN(n_sequences, 1);
+        m_cm = NaN(m, m, n_sequences);
+        for i = 1:n_sequences
+            disp(['Sequence ', num2str(i)]);
+            [trials, cm, mae] = generate_trials(n, k, m, mp);
+            disp(' ');
+            m_trials(:, i) = trials;
+            m_mae(i) = mae;
+            m_cm(:,:,i) = cm;
+        end
 
-if n_sequences < 100
-    similarity_trials = [];
-    similarity_cm = [];
-    for i = 1:n_sequences
-        for j = 1:n_sequences
-            if i ~= j
-                similarity_trials = [similarity_trials; mean(m_trials(:,i) == m_trials(:,j))];
-                similarity_cm = [similarity_cm; mean(mean(m_cm(:,:,i) == m_cm(:,:,j)))];
+        if n_sequences < 100
+            similarity_trials = [];
+            similarity_cm = [];
+            for i = 1:n_sequences
+                for j = 1:n_sequences
+                    if i ~= j
+                        similarity_trials = [similarity_trials; mean(m_trials(:,i) == m_trials(:,j))];
+                        similarity_cm = [similarity_cm; mean(mean(m_cm(:,:,i) == m_cm(:,:,j)))];
+                    end
+                end
             end
+
+            disp('Finished');
+            disp(['Mean similarity: ', num2str(mean(similarity_trials)),', min: ', ...
+                num2str(min(similarity_trials)),', max: ', num2str(max(similarity_trials))]);
+            disp(['Mean MAE: ', num2str(mean(m_mae)),', min: ', ...
+                num2str(min(m_mae)),', max: ', num2str(max(m_mae))]);
+        end
+
+        % Output sequence as rows
+        cd('/home/jdk20/git/wheatley/sequences');
+        if k >= n
+            writematrix(m_trials', ['seq_n_',num2str(n),'_k_inf_m_',num2str(m),'.csv'], 'Delimiter',',')
+        else
+            writematrix(m_trials', ['seq_n_',num2str(n),'_k_',num2str(k),'_m_',num2str(m),'.csv'], 'Delimiter',',')
         end
     end
-
-    disp('Finished');
-    disp(['Mean similarity: ', num2str(mean(similarity_trials)),', min: ', ...
-        num2str(min(similarity_trials)),', max: ', num2str(max(similarity_trials))]);
-    disp(['Mean MAE: ', num2str(mean(m_mae)),', min: ', ...
-        num2str(min(m_mae)),', max: ', num2str(max(m_mae))]);
 end
-
-% Output sequence as rows
-if k >= n
-    k = 0;
-end
-cd('/home/jdk20/git/wheatley/sequences');
-writematrix(m_trials', ['seq_n',num2str(n),'_k',num2str(k),'_m',num2str(m),'.csv'], 'Delimiter',',')
-
 
 % -------------------------------------------------------------------------
 % Functions
