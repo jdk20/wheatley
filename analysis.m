@@ -30,21 +30,62 @@ clear opts
 % 50: Lick, ITI
 % 51: Lick, Delay
 % 53: Lick, Reception
+% 60: Trial Hit
+% 61: Trial Miss
+% 62: Trial FA
+% 63: Trial CR
 
-i0 = find(cell2mat(data(:,2)) == 95);
-i1 = find(cell2mat(data(:,2)) == 96);
+i0 = find(cell2mat(data(:,2)) == 95); % Start_CS+_Trial
+i1 = find(cell2mat(data(:,2)) == 97); % End_CS+_Trial
 
+i2 = find(cell2mat(data(:,2)) == 96); % Start_CS-_Trial
+i3 = find(cell2mat(data(:,2)) == 98); % End_CS-_Trial
+
+% CS+ trial
 box off; hold on;
-% plot(cell2mat(data(i0,1)),ones(1,length(cell2mat(data(i0,1)))),'k.');
 for i = 1:length(i0)
-    line([cell2mat(data(i0(i),1)) cell2mat(data(i1(i),1))],[1 1]);
+    line([cell2mat(data(i0(i),1)) cell2mat(data(i1(i),1))],[1 1],'Color','g');
 end
 
-i0 = find(cell2mat(data(:,2)) == 50);
-plot(cell2mat(data(i0,1)),ones(1,length(cell2mat(data(i0,1)))),'ks');
+% CS+ trial
+for i = 1:length(i2)
+    line([cell2mat(data(i2(i),1)) cell2mat(data(i3(i),1))],[1 1],'Color','r');
+end
 
-i0 = find(cell2mat(data(:,2)) == 51);
-plot(cell2mat(data(i0,1)),ones(1,length(cell2mat(data(i0,1)))),'ks');
+i4 = find(cell2mat(data(:,2)) == 50); % ITI Lick
+plot(cell2mat(data(i4,1)),ones(1,length(cell2mat(data(i4,1)))),'ks');
 
-i0 = find(cell2mat(data(:,2)) == 52);
-plot(cell2mat(data(i0,1)),ones(1,length(cell2mat(data(i0,1)))),'ks','MarkerFaceColor','k');
+i5 = find(cell2mat(data(:,2)) == 51); % Delay Lick, invalid
+plot(cell2mat(data(i5,1)),ones(1,length(cell2mat(data(i5,1)))),'ks');
+
+i6 = find(cell2mat(data(:,2)) == 52); % Reception Lick, valid
+plot(cell2mat(data(i6,1)),ones(1,length(cell2mat(data(i6,1)))),'ks','MarkerFaceColor','k');
+
+% Trial Hit or CR
+i7 = find(cell2mat(data(:,2)) == 60 | cell2mat(data(:,2)) == 63);
+plot(cell2mat(data(i7,1)),ones(1,length(cell2mat(data(i7,1)))),'kd','MarkerFaceColor','k');
+
+% Trial Miss or FA
+i8 = find(cell2mat(data(:,2)) == 61 | cell2mat(data(:,2)) == 62);
+plot(cell2mat(data(i8,1)),ones(1,length(cell2mat(data(i8,1)))),'kd','MarkerFaceColor','w');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
