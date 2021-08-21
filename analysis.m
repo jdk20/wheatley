@@ -62,17 +62,12 @@ clear opts
 % 120  End_Session_Accuracy
 % 121  End_Session_Number_Hits
 % 122  End_Session_Number_Miss
-% 123  End_Session_Number_FA
+% 123  End_Session_Number_FA 
 % 124  End_Session_Number_CR
 % 125  End_Session_Number_Licks
 % 126  End_Session_Reward_Dispensed_ml
 
-% Test
-% 2. End metrics are correct
-% 3. Trial sequence is correct
-% 6. Timing is approximately correct for ITI, delay, reception
-
-% grab info
+% Grab info
 n_trials = info{strcmp(info(:,1),'Trials'), 2};
 t_delay = info{strcmp(info(:,1),'Delay_Window_ms'), 2}/1000;
 t_reception = info{strcmp(info(:,1),'Reception_Window_ms'), 2}/1000;
@@ -80,6 +75,17 @@ t_iti = [info{strcmp(info(:,1),'ITI_Lower_s'), 2} info{strcmp(info(:,1),'ITI_Upp
 t_punish = info{strcmp(info(:,1),'Punish_Time_s'), 2};
 min_licks = info{strcmp(info(:,1),'Min_Licks'), 2};
 reward_vol = info{strcmp(info(:,1),'Reward_Volume'), 2};
+
+% load sequence
+opts = delimitedTextImportOptions("NumVariables", n_trials+1);
+opts.DataLines = [24, 24];
+opts.Delimiter = ",";
+opts.ExtraColumnsRule = "ignore";
+opts.EmptyLineRule = "read";
+data_sequence = readtable("/home/jdk20/git/wheatley/0000-00-00-00-00-00/data.txt", opts);
+data_sequence = table2array(data_sequence);
+clear opts
+data_sequence = str2double(data_sequence(2:end))';
 
 % Check for duplicate event codes
 disp('Event Codes');
@@ -102,24 +108,40 @@ if length(sequence) ~= n_trials
     error('Expected number of trials do not match');
 end
 
+if mean(data_sequence == sequence) ~= 1
+    error('Reported sequence does not match');
+end
+
 % Compare end metrics
 if data{cell2mat(data(:,2)) == 121, 5} ~= sum(cell2mat(data(:,2)) == 60) % Hits
     error('Hits mismatch');
 end
+
 if data{cell2mat(data(:,2)) == 122, 5} ~= sum(cell2mat(data(:,2)) == 61) % Miss
-    
+    error('Miss mismatch');
 end
+
 if data{cell2mat(data(:,2)) == 123, 5} ~= sum(cell2mat(data(:,2)) == 62) % FA
-    
+    error('FA mismatch');
 end
+
 if data{cell2mat(data(:,2)) == 124, 5} ~= sum(cell2mat(data(:,2)) == 63) % CR
-    
+    error('CR mismatch');
 end
-if data{cell2mat(data(:,2)) == 125, 5} ~= sum(cell2mat(data(:,2)) == 50 | cell2mat(data(:,2)) == 51 | cell2mat(data(:,2)) == 52) % Licks
-    
+
+if data{cell2mat(data(:,2)) == 125, 5} ~= sum(cell2mat(data(:,2)) == 50 | ...
+        cell2mat(data(:,2)) == 51 | cell2mat(data(:,2)) == 52) % Licks
+    error('Licks mismatch');
 end
+
 if data{cell2mat(data(:,2)) == 126, 5} ~= reward_vol*sum(cell2mat(data(:,2)) == 100) % Reward
-    
+    error('Reward mismatch');
+end
+
+if data{cell2mat(data(:,2)) == 120, 5} ~= (sum(cell2mat(data(:,2)) == 60) + ...
+        sum(cell2mat(data(:,2)) == 63))/(sum(cell2mat(data(:,2)) == 60) + ...
+        sum(cell2mat(data(:,2)) == 61) + sum(cell2mat(data(:,2)) == 62) + sum(cell2mat(data(:,2)) == 63))
+    error('Accuracy mismatch');
 end
 
 % Error info
@@ -129,6 +151,41 @@ err_n_trial_events = [];
 err_sequence = [];
 err_event_timing = [];
 err_metrics = [];
+err_iti_events = [];
+
+% ITI
+i0 = [find(cell2mat(data(:,2)) == 20); find(cell2mat(data(:,2)) == 22)]; % Start_ITI
+i1 = [find(cell2mat(data(:,2)) == 21); find(cell2mat(data(:,2)) == 23)]; % End_ITI
+
+time_iti = [];
+time_punish_iti = [];
+
+for i = 1:length(i0)
+    trial = data(i0(i):i1(i),:);
+    
+    % Check for events beside Lick_ITI
+    if sum(cell2mat(trial(2:end-1,2)) ~= 50) > 0
+        err_iti_events = [err_iti_events; i];
+    end
+    
+    % ITI
+    if trial{1,2} == 20
+        time_iti = [time_iti; trial{end,1} - trial{1,1}];
+    % Punish ITI
+    elseif trial{1,2} == 22
+        time_punish_iti = [time_punish_iti; trial{end,1} - trial{1,1}];
+    end
+end
+
+if ~isempty(err_iti_events)
+    error('Non-lick event inside ITI');
+end
+
+disp(' ');
+disp(['ITI; mean: ', num2str(sum(t_iti)/2),', range: ',num2str(t_iti(1)),'-',num2str(t_iti(2)), ...
+    ', measured; mean: ',num2str(mean(time_iti)),', range: ',num2str(min(time_iti)),'-',num2str(max(time_iti)),'']);
+disp(['Punished ITI; mean: ', num2str(sum(t_iti+t_punish)/2),', range: ',num2str(t_iti(1)+t_punish),'-',num2str(t_iti(2)+t_punish), ...
+    ', measured; mean: ',num2str(mean(time_punish_iti)),', range: ',num2str(min(time_punish_iti)),'-',num2str(max(time_punish_iti)),'']);
 
 % CS Trials
 i0 = [find(cell2mat(data(:,2)) == 95); find(cell2mat(data(:,2)) == 96)]; % Start_CS_Trial
@@ -265,7 +322,6 @@ for i = 1:length(i0)
     
 end
 
-
 disp(' ')
 b1 = bootstrp(1000,@mean,time_delay);
 disp(['Delay: ', num2str(t_delay),', measured: ', num2str(mean(time_delay)), ...
@@ -298,6 +354,9 @@ end
 if ~isempty(err_sequence)
     error('Metrics error');
 end
+
+
+
 
 return
 
