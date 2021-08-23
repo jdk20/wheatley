@@ -147,6 +147,7 @@ for i = 1:length(i0)
 end
 
 % Licks
+figure(1);
 for k = 1:4
     switch k
         case 1
@@ -182,18 +183,16 @@ for k = 1:4
                 temp_1 = lick.cs_minus.fa.reception{i};
         end
         
-        plot(temp_0, i.*ones(1,length(temp_0)), 'ko','MarkerFaceColor','w');
-        plot(temp_1, i.*ones(1,length(temp_1)), 'ko','MarkerFaceColor','k');
+        plot(temp_0, i.*ones(1,length(temp_0)), 'ks','MarkerFaceColor','w','MarkerSize',4);
+        plot(temp_1, i.*ones(1,length(temp_1)), 'ks','MarkerFaceColor','k','MarkerSize',4);
     end
-    line([t_delay t_delay],[1 i],'Color','k','LineStyle','--');
+%     line([t_delay t_delay],[1 i],'Color','k','LineStyle','--');
     xlabel('Time (seconds)');
     ylabel('Trials');
     title(S);
 end
 
-
-return
-
+figure(2)
 % Rolling accuracy
 acc = [];
 for i = 1:length(performance)
@@ -218,7 +217,14 @@ xlabel('Time (seconds)');
 ylabel('Instantaneous accuracy');
 set(gca,'YTick',0:0.1:1);
 
+cd('/home/jdk20/git/wheatley');
+w = 8;
+h = 5;
+set(figure(1),'PaperPosition',[0 0 w*1.19 h*1.19]);
+print(figure(1),'-dpng','licks_by_metric.png');
 
+set(figure(2),'PaperPosition',[0 0 w*1.19 h*1.19]);
+print(figure(2),'-dpng','acc_over_time_and_trials.png');
 
 
 
