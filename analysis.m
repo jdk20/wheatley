@@ -134,9 +134,12 @@ if data{cell2mat(data(:,2)) == 125, 5} ~= sum(cell2mat(data(:,2)) == 50 | ...
     error('Licks mismatch');
 end
 
-if data{cell2mat(data(:,2)) == 126, 5} ~= reward_vol*sum(cell2mat(data(:,2)) == 100) % Reward
-    error('Reward mismatch');
-end
+% if data{cell2mat(data(:,2)) == 126, 5} ~= reward_vol*sum(cell2mat(data(:,2)) == 100) % Reward
+%     error('Reward mismatch');
+% end
+disp(' ');
+disp(['Reward (Log): ', num2str(data{cell2mat(data(:,2)) == 126, 5})]) 
+disp(['Reward (Calculated): ', num2str(reward_vol*sum(cell2mat(data(:,2)) == 100))])
 
 if data{cell2mat(data(:,2)) == 120, 5} ~= (sum(cell2mat(data(:,2)) == 60) + ...
         sum(cell2mat(data(:,2)) == 63))/(sum(cell2mat(data(:,2)) == 60) + ...
