@@ -1,12 +1,12 @@
 Schedule,Two Choice Audio Discrimination
 Environment,BI Room 146
 Path,C:\Users\SiapasLab\Desktop\git\wheatley
-Time,9/4/2021 6:27:14 PM
+Time,9/5/2021 4:23:00 PM
 Animal,Mouse
 Trials,100
 Consecutive_Trials,3
 Max_Time_s,3600.000000
-Delay_Window_ms,100.000000
+Delay_Window_ms,2000.000000
 Reception_Window_ms,5000.000000
 ITI_Lower_s,5.000000
 ITI_Upper_s,5.000000
@@ -21,89 +21,39 @@ CS+_No_Lick,Miss
 CS-_Delay_Lick,False_Alarm
 CS-_Reception_Lick,False_Alarm
 CS-_No_Lick,Correct_Reject
-Trial_Sequence, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1
+Trial_Sequence, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0
 
 ----------
 Time, ID, Type, Name, Value
-2.887669, 20, Internal, Start_ITI, 5.000000
-7.889617, 21, Internal, End_ITI, 
-7.890034, 95, Internal, Start_CS+_Trial, 
-7.898287, 90, External, Play_Audio_Tone_CS+,10000.000000
-7.903295, 91, Internal, Start_Trial_Delay_Window, 0.100000
-7.991000, 93, Internal, End_Trial_Delay_Window, 
-7.993058, 92, Internal, Start_Trial_Reception_Window, 5.000000
-12.994451, 94, Internal, End_Trial_Reception_Window, 
-13.000661, 61, Internal, Trial_Miss,
-13.000989, 97, Internal, End_CS+_Trial, 
-13.005193, 22, Internal, Start_Punish_ITI, 5.000000
-18.156434, 23, Internal, End_Punish_ITI, 
-18.156883, 95, Internal, Start_CS+_Trial, 
-18.163183, 90, External, Play_Audio_Tone_CS+,10000.000000
-18.167179, 91, Internal, Start_Trial_Delay_Window, 0.100000
-18.257335, 93, Internal, End_Trial_Delay_Window, 
-18.259037, 92, Internal, Start_Trial_Reception_Window, 5.000000
-23.258735, 94, Internal, End_Trial_Reception_Window, 
-23.265026, 61, Internal, Trial_Miss,
-23.265359, 97, Internal, End_CS+_Trial, 
-23.269893, 22, Internal, Start_Punish_ITI, 5.000000
-28.423514, 23, Internal, End_Punish_ITI, 
-28.423932, 95, Internal, Start_CS+_Trial, 
-28.430522, 90, External, Play_Audio_Tone_CS+,10000.000000
-28.434487, 91, Internal, Start_Trial_Delay_Window, 0.100000
-28.525249, 93, Internal, End_Trial_Delay_Window, 
-28.529007, 92, Internal, Start_Trial_Reception_Window, 5.000000
-29.223998, 52, Internal, Lick, Trial_Reception_Window
-33.528779, 94, Internal, End_Trial_Reception_Window, 
-33.535119, 100, External, Dispense_Reward,51.500000
-33.535514, 60, Internal, Trial_Hit,
-33.540145, 97, Internal, End_CS+_Trial, 
-33.544531, 20, Internal, Start_ITI, 5.000000
-38.547811, 21, Internal, End_ITI, 
-38.548202, 96, Internal, Start_CS-_Trial, 
-38.555597, 89, External, Play_Audio_Tone_CS-,5000.000000
-38.558854, 91, Internal, Start_Trial_Delay_Window, 0.100000
-38.648610, 93, Internal, End_Trial_Delay_Window, 
-38.653122, 92, Internal, Start_Trial_Reception_Window, 5.000000
-39.085842, 52, Internal, Lick, Trial_Reception_Window
-40.469606, 52, Internal, Lick, Trial_Reception_Window
-41.058316, 52, Internal, Lick, Trial_Reception_Window
-41.491911, 52, Internal, Lick, Trial_Reception_Window
-42.594954, 52, Internal, Lick, Trial_Reception_Window
-43.634528, 52, Internal, Lick, Trial_Reception_Window
-43.654911, 94, Internal, End_Trial_Reception_Window, 
-43.660941, 62, Internal, Trial_FA,
-43.661294, 98, Internal, End_CS-_Trial, 
-43.665612, 22, Internal, Start_Punish_ITI, 5.000000
-48.817824, 23, Internal, End_Punish_ITI, 
-48.818415, 95, Internal, Start_CS+_Trial, 
-48.824776, 90, External, Play_Audio_Tone_CS+,10000.000000
-48.830818, 91, Internal, Start_Trial_Delay_Window, 0.100000
-48.919235, 93, Internal, End_Trial_Delay_Window, 
-48.922991, 92, Internal, Start_Trial_Reception_Window, 5.000000
-53.135852, 52, Internal, Lick, Trial_Reception_Window
-53.884598, 52, Internal, Lick, Trial_Reception_Window
-53.921083, 94, Internal, End_Trial_Reception_Window, 
-53.928084, 100, External, Dispense_Reward,51.500000
-53.928523, 60, Internal, Trial_Hit,
-53.933228, 97, Internal, End_CS+_Trial, 
-53.937462, 20, Internal, Start_ITI, 5.000000
-58.940194, 21, Internal, End_ITI, 
-58.940604, 96, Internal, Start_CS-_Trial, 
-58.947284, 89, External, Play_Audio_Tone_CS-,5000.000000
-58.953169, 91, Internal, Start_Trial_Delay_Window, 0.100000
-59.040845, 93, Internal, End_Trial_Delay_Window, 
-59.042822, 92, Internal, Start_Trial_Reception_Window, 5.000000
-64.046611, 94, Internal, End_Trial_Reception_Window, 
-64.052997, 100, External, Dispense_Reward,51.500000
-64.053442, 63, Internal, Trial_CR,
-64.058195, 98, Internal, End_CS-_Trial, 
-64.062989, 111, External, End_Session_Time_Reached, 
-64.067447, 20, Internal, Start_ITI, 5.000000
-69.066719, 21, Internal, End_ITI, 
--1, 120, External, End_Session_Accuracy, 0.500000
--1, 121, External, End_Session_Number_Hits, 2
--1, 122, External, End_Session_Number_Miss, 2
--1, 123, External, End_Session_Number_FA, 1
--1, 124, External, End_Session_Number_CR, 1
--1, 125, External, End_Session_Number_Licks, 9
--1, 126, External, End_Session_Reward_Dispensed_ml, 154
+0.835060, 20, Internal, Start_ITI, 5.000000
+5.842271, 21, Internal, End_ITI, 
+5.842648, 96, Internal, Start_CS-_Trial, 
+5.847989, 89, External, Play_Audio_Tone_CS-,5000.000000
+5.853899, 91, Internal, Start_Trial_Delay_Window, 2.000000
+7.843489, 93, Internal, End_Trial_Delay_Window, 
+7.850739, 92, Internal, Start_Trial_Reception_Window, 5.000000
+12.845590, 94, Internal, End_Trial_Reception_Window, 
+12.852638, 100, External, Dispense_Reward,51.500000
+12.852983, 63, Internal, Trial_CR,
+12.857647, 98, Internal, End_CS-_Trial, 
+12.861586, 20, Internal, Start_ITI, 5.000000
+17.867038, 21, Internal, End_ITI, 
+17.867400, 96, Internal, Start_CS-_Trial, 
+17.874019, 89, External, Play_Audio_Tone_CS-,5000.000000
+17.877880, 91, Internal, Start_Trial_Delay_Window, 2.000000
+19.870248, 93, Internal, End_Trial_Delay_Window, 
+19.878379, 92, Internal, Start_Trial_Reception_Window, 5.000000
+24.869816, 94, Internal, End_Trial_Reception_Window, 
+24.876516, 100, External, Dispense_Reward,51.500000
+24.876907, 63, Internal, Trial_CR,
+24.881457, 98, Internal, End_CS-_Trial, 
+24.885203, 111, External, End_Session_Time_Reached, 
+24.889748, 20, Internal, Start_ITI, 5.000000
+29.892894, 21, Internal, End_ITI, 
+-1, 120, External, End_Session_Accuracy, 1.000000
+-1, 121, External, End_Session_Number_Hits, 0
+-1, 122, External, End_Session_Number_Miss, 0
+-1, 123, External, End_Session_Number_FA, 0
+-1, 124, External, End_Session_Number_CR, 2
+-1, 125, External, End_Session_Number_Licks, 0
+-1, 126, External, End_Session_Reward_Dispensed_ml, 103
