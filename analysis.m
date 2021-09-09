@@ -1,5 +1,7 @@
 clc; clear variables; close all;
 
+fn = '/home/jdk20/Downloads/data.txt';
+
 % Import info from data.csv
 opts = delimitedTextImportOptions("NumVariables", 5);
 opts.DataLines = [1, 23];
@@ -11,7 +13,7 @@ opts.ExtraColumnsRule = "ignore";
 opts.EmptyLineRule = "read";
 opts = setvaropts(opts, ["Time", "ID", "Var3", "Var4", "Var5"], "WhitespaceRule", "preserve");
 opts = setvaropts(opts, ["Time", "ID", "Var3", "Var4", "Var5"], "EmptyFieldRule", "auto");
-info = readtable("/home/jdk20/git/wheatley/0000-00-00-00-00-00/data.txt", opts);
+info = readtable(fn, opts);
 info = table2cell(info);
 numIdx = cellfun(@(x) ~isnan(str2double(x)), info);
 info(numIdx) = cellfun(@(x) {str2double(x)}, info(numIdx));
@@ -30,7 +32,7 @@ opts.EmptyLineRule = "read";
 opts = setvaropts(opts, ["Type", "Name"], "WhitespaceRule", "preserve");
 opts = setvaropts(opts, ["Type", "Name"], "EmptyFieldRule", "auto");
 
-data = readtable("/home/jdk20/git/wheatley/0000-00-00-00-00-00/data.txt", opts);
+data = readtable(fn, opts);
 data = table2cell(data);
 numIdx = cellfun(@(x) ~isnan(str2double(x)), data);
 data(numIdx) = cellfun(@(x) {str2double(x)}, data(numIdx));
@@ -104,13 +106,13 @@ sequence = NaN(size(data,1), 1);
 sequence(cell2mat(data(:,2)) == 95) = 1;
 sequence(cell2mat(data(:,2)) == 96) = 0;
 sequence = sequence(~isnan(sequence));
-if length(sequence) ~= n_trials
-    error('Expected number of trials do not match');
-end
+% if length(sequence) ~= n_trials
+%     error('Expected number of trials do not match');
+% end
 
-if mean(data_sequence == sequence) ~= 1
-    error('Reported sequence does not match');
-end
+% if mean(data_sequence == sequence) ~= 1
+%     error('Reported sequence does not match');
+% end
 
 % Compare end metrics
 if data{cell2mat(data(:,2)) == 121, 5} ~= sum(cell2mat(data(:,2)) == 60) % Hits
@@ -141,11 +143,11 @@ disp(' ');
 disp(['Reward (Log): ', num2str(data{cell2mat(data(:,2)) == 126, 5})]) 
 disp(['Reward (Calculated): ', num2str(reward_vol*sum(cell2mat(data(:,2)) == 100))])
 
-if data{cell2mat(data(:,2)) == 120, 5} ~= (sum(cell2mat(data(:,2)) == 60) + ...
-        sum(cell2mat(data(:,2)) == 63))/(sum(cell2mat(data(:,2)) == 60) + ...
-        sum(cell2mat(data(:,2)) == 61) + sum(cell2mat(data(:,2)) == 62) + sum(cell2mat(data(:,2)) == 63))
-    error('Accuracy mismatch');
-end
+% if data{cell2mat(data(:,2)) == 120, 5} ~= (sum(cell2mat(data(:,2)) == 60) + ...
+%         sum(cell2mat(data(:,2)) == 63))/(sum(cell2mat(data(:,2)) == 60) + ...
+%         sum(cell2mat(data(:,2)) == 61) + sum(cell2mat(data(:,2)) == 62) + sum(cell2mat(data(:,2)) == 63))
+%     error('Accuracy mismatch');
+% end
 
 % Error info
 err_trial_bounds = [];
