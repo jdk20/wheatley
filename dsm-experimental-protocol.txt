@@ -1,0 +1,10 @@
+1. Open the directory: Desktop\wheatley
+2. Open the VI: dsm-main.vi
+3. Enter the "Animal Name" on the front panel.
+4. Select the correct "Protocol" on the front panel.
+	a. Partial Training 1: All tones match, reward always dispensed, run this for 2 days.
+	b. Partial Training 2: All tones match, reward dispensed when licked, run this until animal >80% accuracy.
+	c. Full Training: Both match and non-match tones, reward dispensed when licked, run this until animal >80% accuracy.
+5. Enter the estimated "Reward Volume".
+6. Press the Run arrow. 
+7. If the VI needs to be stopped, use the Stop button on the front panel.
