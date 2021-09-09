@@ -7,10 +7,10 @@ n_sequences = 1000;
 
 % n = 50; % number of trials 
 % k = 3; % maximum number of consecutive trials
-m = 2; % trial types, starting at 0. t = 2 for binary trials
-mp = [1, 1]; % relative proportions of each trial type
+m = 4; % trial types, starting at 0. t = 2 for binary trials
+mp = [1, 1, 1, 1]; % relative proportions of each trial type
 
-for n = [10 50 100 175 200 500]
+for n = [500]
     for k = [3 5 1000]
         [n k]
         m_trials = NaN(n, n_sequences);
