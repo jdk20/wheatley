@@ -1,4 +1,4 @@
-1. Open the directory: Desktop\wheatley
+1. Open the directory: C:\Users\SiapasLab\Desktop\git\wheatley
 2. Open the VI: dsm-main.vi
 3. Enter the "Animal Name" on the front panel.
 4. Select the correct "Protocol" on the front panel.
