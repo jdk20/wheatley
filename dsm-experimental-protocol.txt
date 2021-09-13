@@ -8,3 +8,99 @@
 5. Enter the estimated "Reward Volume".
 6. Press the Run arrow. 
 7. If the VI needs to be stopped, use the Stop button on the front panel.
+
+All Mice:
+Punish ITI: 0
+ITI: 8 to 25
+Reception 3 seconds
+
+-------------------------------------------------------------------------
+9-13-21 to 9-14-21
+-------------------------------------------------------------------------
+Name: JK-0
+Protocol: Partial Training 1
+Tone Pair 1: 8000 and 15000 Hz
+Delay: 5 seconds
+
+Name: JK-1
+Protocol: Partial Training 1
+Tone Pair 1: 8000 and 15000 Hz
+Delay: 5 seconds
+
+Name: JK-2
+Protocol: Partial Training 1
+Tone Pair 1: 8000 and 15000 Hz
+Delay: 10 seconds
+
+-------------------------------------------------------------------------
+9-15-21 to until accuracy > 80%
+-------------------------------------------------------------------------
+Name: JK-0
+Protocol: Partial Training 2
+Tone Pair 1: 8000 and 15000 Hz
+Delay: 5 seconds
+
+Name: JK-1
+Protocol: Partial Training 2
+Tone Pair 1: 8000 and 15000 Hz
+Delay: 5 seconds
+
+Name: JK-2
+Protocol: Partial Training 2
+Tone Pair 1: 8000 and 15000 Hz
+Delay: 10 seconds
+
+-------------------------------------------------------------------------
+until full training accuracy > 80% (first tone pair)
+-------------------------------------------------------------------------
+Name: JK-0
+Protocol: Full Training
+Tone Pair 1: 8000 and 15000 Hz
+Delay: 5 seconds
+
+Name: JK-1
+Protocol: Full Training
+Tone Pair 1: 8000 and 15000 Hz
+Delay: 5 seconds
+
+Name: JK-2
+Protocol: Full Training
+Tone Pair 1: 8000 and 15000 Hz
+Delay: 10 seconds
+
+-------------------------------------------------------------------------
+until full training accuracy > 80% (second tone pair)
+-------------------------------------------------------------------------
+Name: JK-0
+Protocol: Full Training
+Tone Pair 1: 10000 and 18700 Hz
+Delay: 5 seconds
+
+Name: JK-1
+Protocol: Full Training
+Tone Pair 1: 10000 and 18700 Hz
+Delay: 5 seconds
+
+Name: JK-2
+Protocol: Full Training
+Tone Pair 1: 10000 and 18700 Hz
+Delay: 10 seconds
+
+-------------------------------------------------------------------------
+until full training accuracy > 80% (third tone pair, after anesthesia)
+-------------------------------------------------------------------------
+Name: JK-0
+Protocol: Full Training
+Tone Pair 1: 12500 and 23400 Hz
+Delay: 5 seconds
+
+Name: JK-1
+Protocol: Full Training
+Tone Pair 1: 18700 and 10000 Hz (reversal)
+Delay: 5 seconds
+
+Name: JK-2
+Protocol: Full Training
+Tone Pair 1: 12500 and 23400 Hz
+Delay: 10 seconds
+
