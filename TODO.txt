@@ -1,0 +1,33 @@
+DSM Training Protocol
+
+4500 Hz = 1 octave
+
+Animal 1
+Name: Ace
+Tone Pair 1: 8000 and 15000 Hz
+Tone Pair 2: 10000 and 18700 Hz
+Tone Pair 3: 12500 and 23400 Hz (novel)
+Punish ITI: 0 (to keep in sync)
+ITI: 8 to 25
+Delay: 5 seconds
+Reception 3 seconds
+
+Animal 2
+Name: Amadeus
+Tone Pair 1: 8000 and 15000 Hz
+Tone Pair 2: 10000 and 18700 Hz
+Tone Pair 3: 18700 and 10000 Hz (reversal)
+Punish ITI: 0
+ITI: 8 to 25
+Delay: 5 seconds
+Reception 3 seconds
+
+Animal 3
+Name: Ajax
+Tone Pair 1: 8000 and 15000 Hz
+Tone Pair 2: 10000 and 18700 Hz
+Tone Pair 3: 12500 and 23400 Hz (novel)
+Punish ITI: 0
+ITI: 8 to 25
+Delay: 10 seconds
+Reception 3 seconds
